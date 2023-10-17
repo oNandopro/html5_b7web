@@ -84,7 +84,8 @@ p .a_b7web:hover{
     border-radius: 10px;
     width: 500px;
     height: 380px;
-    background-color: rgba(29, 7, 7, 0.959);
+    /*background-color: rgba(29, 7, 7, 0.959);*/
+    background-image: url(imagens/psico6.png);
     
 }
 .art_h3{
