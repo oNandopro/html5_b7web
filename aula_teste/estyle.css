@@ -5,11 +5,17 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
     font-family: "AudioWide";
     margin: auto;
 }
+.p1_header{
+    margin-top: 0px;
+    color: rgba(99, 252, 11, 0.753);
+    text-align: center;
+    font-size: 2em;
+} 
 h1 {
+    margin-bottom: 0px;
     text-align: center;
     font-size: 5em;
     color: rgb(99, 252, 11);
@@ -19,4 +25,17 @@ h2 {
     text-align: center;
     font-size: 3em;
     color: rgb(99, 252, 11);
+}
+.article1{
+    margin-top: 40px;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(241, 136, 15, 0.034);
+}
+.p_article1{
+    color: rgb(239, 240, 236);
+    font-size: 1.5em;
 }
