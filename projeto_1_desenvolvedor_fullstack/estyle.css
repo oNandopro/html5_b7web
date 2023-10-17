@@ -18,7 +18,7 @@ body {
 }
 /* CABEÇALHO */
 .header{
-    margin-top: 30px;
+    margin-top: 95px;
 }
 h1 {
     margin-bottom: 0px;
@@ -27,7 +27,7 @@ h1 {
     color: rgb(99, 252, 11);
 }
 .p1_header{
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 50px;
     color: rgba(99, 252, 11, 0.753);
     text-align: center;
@@ -36,12 +36,13 @@ h1 {
 /* ARTICLE 1 SOBRE */
 .article1{
     margin: auto;
+    margin-top: 8%;
     text-align: center;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     width: 500px;
     height: 380px;
-    background-color: rgba(29, 7, 7, 0.959);
+    background-color: rgba(29, 7, 7, 0.767);
 }
 .p_article1{
     padding-top: 60px;
@@ -78,14 +79,13 @@ p .a_b7web:hover{
 }
 /* ARTICLE 2 */
 .article2{
-    margin-left: 13%;
-    margin-top: 5%;
+    margin: auto;
+    margin-top: 800px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     width: 500px;
     height: 380px;
-    /*background-color: rgba(29, 7, 7, 0.959);*/
-    background-image: url(imagens/psico6.png);
+    background-color: rgba(29, 7, 7, 0.644);
     
 }
 .art_h3{
@@ -106,3 +106,14 @@ p .a_b7web:hover{
 /**/
 /**/
 /* FOOTER */
+.footer{
+    margin-top: 50px;
+    text-align: center;
+}
+footer .a_onando{
+    text-decoration: none;
+    color: white;
+}
+footer .a_onando:hover{
+    color: #d816be ;
+}
