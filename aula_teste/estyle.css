@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 * {
     font-family: "AudioWide";
+    color: rgb(70, 252, 10);
     margin: 0px;
     padding: 0px;
 }
@@ -12,10 +13,10 @@ body {
     background-image: url(imagens/psico7.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     margin: auto;
 }
-
+/* CABEÇALHO */
 .header{
     margin-top: 30px;
 }
@@ -27,23 +28,24 @@ h1 {
 }
 .p1_header{
     margin-top: 0px;
+    margin-bottom: 50px;
     color: rgba(99, 252, 11, 0.753);
     text-align: center;
     font-size: 2em;
 } 
-
+/* ARTICLE 1 SOBRE */
 .article1{
-    margin-top: 40px;
-    margin-left: 30px;
+    margin: auto;
+    text-align: center;
     padding: 20px;
     border-radius: 10px;
-    width: 400px;
-    height: 300px;
-    background-color: rgba(241, 136, 15, 0.034);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+    width: 500px;
+    height: 380px;
+    background-color: rgba(29, 7, 7, 0.959);
 }
 .p_article1{
-    color: rgb(239, 240, 236);
+    padding-top: 60px;
+    color: rgb(70, 252, 10);
     font-size: 1.5em;
 }
 .a_GG{
@@ -51,6 +53,13 @@ h1 {
     text-decoration: none;
 }
 .a_GG:hover{
+    color: white;
+}
+p .a_est{
+    color: rgb(8, 12, 238);;
+    text-decoration: none;
+}
+p .a_est:hover{
     color: white;
 }
 p .a_boni{
@@ -67,4 +76,32 @@ p a.a_b7web{
 p .a_b7web:hover{
     color: white;
 }
-
+/* ARTICLE 2 */
+.article2{
+    margin-left: 13%;
+    margin-top: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    height: 380px;
+    background-color: rgba(29, 7, 7, 0.959);
+    
+}
+.art_h3{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 2em
+    
+}
+.art_ul{
+    margin-left: 8%;
+    font-size: 1.5em;
+}
+/* ASIDE DO ARTICLE 2 */
+/**/
+/**/
+/**/
+/**/
+/**/
+/* FOOTER */
