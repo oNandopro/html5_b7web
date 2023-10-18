@@ -28,9 +28,12 @@ body {
     color: rgb(56, 69, 250);
     text-decoration: none;
 }
+.a_blue:hover{
+    color: white;
+}
 /* CABEÇALHO */
 .header{
-    margin-top: 95px;
+    margin-top: 50px;
 }
 h1 {
     margin-bottom: 0px;
@@ -64,14 +67,6 @@ h1 {
     color: rgb(70, 252, 10);
     font-size: 1.5em;
 }
-/* SECTION, ARTICLE 1, PARAGRAFO */
-.a_GG:hover,
-.a_est:hover,
-.a_boni:hover,
-.a_b7web:hover
-{
-    color: white;
-}
 /* ARTICLE 2 */
 .article2{
     margin-left: 30px;
@@ -102,8 +97,9 @@ h1 {
 /**/
 /* FOOTER */
 .footer{
-    margin-top: 50px;
     text-align: center;
+    height: 50px;
+    margin-top: 50px;
 }
 footer .a_onando{
     text-decoration: none;
