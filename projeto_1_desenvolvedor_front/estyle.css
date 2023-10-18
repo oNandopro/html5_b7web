@@ -10,11 +10,23 @@ body {
     width: 100wh;
     height: 100vh;
 
-    background-image: url(imagens/psico7.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(imagens/psico_cleanpng.png);
+    background-repeat: repeat;
+    background-size: contain;
     background-attachment: scroll;
     margin: auto;
+}
+/* FOR STANDARD NO HEAD */
+.p_center{
+    text-align: center;
+}
+.a_white{
+    color: white;
+    text-decoration: none;
+}
+.a_blue{
+    color: rgb(56, 69, 250);
+    text-decoration: none;
 }
 /* CABEÇALHO */
 .header{
@@ -28,20 +40,23 @@ h1 {
 }
 .p1_header{
     margin-top: 10px;
-    margin-bottom: 50px;
-    color: rgba(99, 252, 11, 0.753);
+    color: rgba(99,252,11);
     text-align: center;
     font-size: 2em;
 } 
+.nav{
+    text-align: center;
+    margin-top: 10px;
+}
 /* ARTICLE 1 SOBRE */
 .article1{
     margin: auto;
-    margin-top: 8%;
+    margin-top: 5%;
     text-align: center;
     padding: 20px;
     border-radius: 50px;
     width: 500px;
-    height: 380px;
+    height: 550px;
     background-color: rgba(29, 7, 7, 0.767);
 }
 .p_article1{
@@ -49,38 +64,18 @@ h1 {
     color: rgb(70, 252, 10);
     font-size: 1.5em;
 }
-.a_GG{
-    color: rgb(8, 12, 238);
-    text-decoration: none;
-}
-.a_GG:hover{
-    color: white;
-}
-p .a_est{
-    color: rgb(8, 12, 238);;
-    text-decoration: none;
-}
-p .a_est:hover{
-    color: white;
-}
-p .a_boni{
-    color:  rgb(8, 12, 238);
-    text-decoration: none;
-}
-.a_boni:hover{
-    color: white;
-}
-p a.a_b7web{
-    color: rgb(8, 12, 238);
-    text-decoration: none;
-}
-p .a_b7web:hover{
+/* SECTION, ARTICLE 1, PARAGRAFO */
+.a_GG:hover,
+.a_est:hover,
+.a_boni:hover,
+.a_b7web:hover
+{
     color: white;
 }
 /* ARTICLE 2 */
 .article2{
-    margin: auto;
-    margin-top: 800px;
+    margin-left: 30px;
+    margin-top: 100px;
     padding: 20px;
     border-radius: 50px;
     width: 500px;
@@ -91,12 +86,12 @@ p .a_b7web:hover{
 .art_h3{
     text-align: center;
     margin-top: 25px;
-    margin-bottom: 30px;
     font-size: 2em
     
 }
 .art_ul{
     margin-left: 8%;
+    margin-top: 30px;
     font-size: 1.5em;
 }
 /* ASIDE DO ARTICLE 2 */
