@@ -36,3 +36,16 @@ body {
 .a_header:hover{
     color: #d816be;
 }
+/* FOOTER */
+.footer{
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+}
+footer .a_onando{
+    text-decoration: none;
+    color: white;
+}
+footer .a_onando:hover{
+    color: #d816be ;
+}

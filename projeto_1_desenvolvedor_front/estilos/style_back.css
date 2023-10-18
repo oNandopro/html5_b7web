@@ -1,0 +1,51 @@
+@charset "UTF-8";
+* {
+    font-family: "AudioWide";
+    color: rgb(70, 252, 10);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 100wh;
+    height: 100vh;
+    margin: 0px;
+
+    background-image: url(/projeto_1_desenvolvedor_front/imagens/psico88.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+}
+/* CABEÇALHO */
+.header{
+    text-align: center;
+    margin-top: 60px;
+}
+.h1_header{
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 5em;
+    color: #3c2fee ;
+}
+.a_header{
+    font-size: 2em;
+    color: #f59fe9 ;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.a_header:hover{
+    color: #d816be;
+}
+/* FOOTER */
+.footer{
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+}
+footer .a_onando{
+    text-decoration: none;
+    color: white;
+}
+footer .a_onando:hover{
+    color: #d816be ;
+}

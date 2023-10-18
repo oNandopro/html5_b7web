@@ -52,6 +52,13 @@ h1 {
     text-align: center;
     margin-top: 10px;
 }
+.a_nav{
+    color: rgb(56, 69, 250);
+    text-decoration: none;
+}
+.a_nav:hover{
+    color: white;
+}
 /* ARTICLE 1 SOBRE */
 .article1{
     margin: auto;
