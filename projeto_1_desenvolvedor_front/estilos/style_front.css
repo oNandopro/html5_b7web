@@ -6,6 +6,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    letter-spacing: 5px;
 }
 body {
     width: 100wh;
@@ -32,6 +33,23 @@ body {
 .a_blue:hover{
     color: white;
 }
+.a_green{
+    text-decoration: none;
+}
+.a_green:hover{
+    color: white;
+}
+.a_pink{
+    color: #d816be;
+    text-decoration: none;
+}
+.a_pink:hover{
+    color: white;
+}
+.decore_none:hover{
+    text-decoration: none;
+    color: white;
+}
 /* CABEÇALHO */
 .header{
     margin-top: 50px;
@@ -52,37 +70,33 @@ h1 {
     text-align: center;
     margin-top: 10px;
 }
-.a_nav{
-    color: rgb(56, 69, 250);
-    text-decoration: none;
-}
 .a_nav:hover{
     color: white;
 }
-/* ARTICLE 1 SOBRE */
+/* PARTE 1 */
 .article1{
     margin: auto;
     margin-top: 80px;
     text-align: center;
     padding: 2%;
     border-radius: 50px;
-    width: 500px;
-    height: 850px;
+    width: 700px;
+    height: 800px;
     background-color: rgba(29, 7, 7, 0.767);
 }
 .p_article1{
-    padding-top: 60px;
+    padding-top: 30px;
     color: rgb(70, 252, 10);
     font-size: 1.5em;
 }
-/* ARTICLE 2 */
+/* CURSOS E ESPECIALIZAÇÕES */
 .article2{
     margin-left: 80px;
     margin-top: 100px;
     padding: 20px;
     border-radius: 50px;
     width: 500px;
-    height: 380px;
+    height: 500px;
     background-color: rgba(29, 7, 7, 0.767);
     
 }
@@ -97,7 +111,6 @@ h1 {
     margin-top: 30px;
     font-size: 1.5em;
 }
-/* ASIDE DO ARTICLE 2 */
 /**/
 /**/
 /**/
@@ -111,8 +124,8 @@ h1 {
 }
 footer .a_onando{
     text-decoration: none;
-    color: white;
+    color: #d816be;
 }
 footer .a_onando:hover{
-    color: #d816be ;
+    color: white;
 }
