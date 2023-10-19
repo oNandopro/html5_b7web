@@ -54,6 +54,12 @@ body {
     text-decoration: none;
     color: white;
 }
+.h3{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2em
+    
+}
 /* CABEÇALHO */
 .header{
     margin-top: 50px;
@@ -83,7 +89,7 @@ h1 {
     margin: auto;
     margin-top: 80px;
     text-align: center;
-    padding: 2%;
+    padding: 40px;
     border-radius: 50px;
     width: 700px;
     height: 800px;
@@ -91,7 +97,7 @@ h1 {
     box-shadow: 2px 2px 0px rgba(235, 50, 210, 0.164);
 }
 .p_article1{
-    padding-top: 30px;
+    padding-top: 20px;
     color: rgb(70, 252, 10);
     font-size: 1.5em;
 }
@@ -107,18 +113,29 @@ h1 {
     box-shadow: 2px 2px 0px rgba(235, 50, 210, 0.164);
     
 }
-.art_h3{
-    text-align: center;
-    margin-top: 25px;
-    font-size: 2em
-    
-}
 .art_ul{
     margin-left: 8%;
     margin-top: 30px;
     font-size: 1.5em;
+    list-style-type: circle;
 }
-/**/
+/* CONSULTA */
+.div_consulta{
+    margin-left: 700px;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 50px;
+    width: 1000px;
+    height: 800px;
+    background-color: rgba(29, 7, 7, 0.767);
+    box-shadow: 2px 2px 0px rgba(235, 50, 210, 0.164);
+}
+.p_consulta{
+    padding: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.5em;
+}
 /**/
 /**/
 /**/
