@@ -91,7 +91,7 @@ h1 {
     text-align: center;
     padding: 40px;
     border-radius: 50px;
-    width: 700px;
+    width: 70%;
     height: 800px;
     background-color: rgba(29, 7, 7, 0.767);
     box-shadow: 2px 2px 0px rgba(235, 50, 210, 0.164);
@@ -103,11 +103,11 @@ h1 {
 }
 /* CURSOS E ESPECIALIZAÇÕES */
 .article2{
-    margin-left: 80px;
-    margin-top: 100px;
+    margin: auto;
+    margin-top: 5%;
     padding: 20px;
     border-radius: 50px;
-    width: 500px;
+    width: 50%;
     height: 500px;
     background-color: rgba(29, 7, 7, 0.767);
     box-shadow: 2px 2px 0px rgba(235, 50, 210, 0.164);
@@ -125,7 +125,7 @@ h1 {
     margin-top: 100px;
     padding: 20px;
     border-radius: 50px;
-    width: 1000px;
+    width: 90%;
     height: 800px;
     background-color: rgba(29, 7, 7, 0.767);
     box-shadow: 2px 2px 0px rgba(235, 50, 210, 0.164);
@@ -138,7 +138,7 @@ h1 {
 }
 .tab_consulta{
     margin: auto;
-    width: 800px;
+    width: 90%;
     height: 400px;
     border-collapse: collapse;
     overflow-y: auto;
