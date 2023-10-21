@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+@font-face {
+    font-family: 'glith' ;
+    src: url(/projeto_1_desenvolvedor_front/fontes/age.ttf) format(opentype);
+}  
+* {
+    font-family: "AudioWide", cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    letter-spacing: 5px;
+    word-spacing: 0px;
+    
+
+}
+body {
+    width: 100wh;
+    height: 100vh;
+    margin: 0px;
+
+    background-color: black;
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+}
+h1 {
+    font-family: 'glith';
+    font-size: 10em;
+    text-align: center;
+    color: white;
+}
+
+
