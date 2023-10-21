@@ -9,12 +9,50 @@
 <body>
     <header class="header_vis"> <!-- CABEÇALHO -->
         <h1 class="h1_vis">Registro de Visitante</h1>
-        <p>
-            <a href="/projeto_1_desenvolvedor_front/paginas/front.html" class="voltar">🔄</a>
-        </p>
     </header>
     <main class="main_vis">
-        
+        <div class="div_vis">
+            <form action="/projeto_1_desenvolvedor_front/paginas/front.html" method="get">
+                <p> Nome:
+                    <input type="text" name="usuario" value="">
+                </p>
+                <p> e-mail:
+                    <input type="email" name="email" id="">
+                </p>
+                <p> Senha
+                    <input type="password" name="senha">
+                </p>
+                <p>Sexo
+                    <input type="radio" name="sexo"> Masculini
+                    <input type="radio" name="sexo"> Feminino
+                </p>
+                <p>Data de Nascimento: 
+                    <input type="date" name="data de nascimento" class="f_black">
+                </p>
+                <p> Se defina:
+                    <select name="usuario" id="" class="f_black">
+                        <option value=""></option>
+                        <option value="recrutador">Recrutador</option>
+                        <option value="estudante">Estudante</option>
+                        <option value="curioso">Curioso</option>
+
+                    </select>
+                </p>
+                <p> Deixe aqui seu feed_back, criticas e sujestões:</p>
+                <p>
+                    <textarea name="descrição" id="" class="txt_area"></textarea>
+                </p>
+                <p>Confirme dados para enviar:
+                    <input type="checkbox" name="checar"> OK
+                </p>
+                <p>
+                    <input type="submit" value="ENVIAR CADASTRO" name="enviar" class="f_black"/>
+                </p>
+            </form>
+            <p class="p_voltar">
+                <a href="\projeto_1_desenvolvedor_front/paginas/front.html" class="voltar">🔄</a>
+            </p>
+        </div>
     </main>
     <footer class="footer_vis"> <!-- RODAPÉ -->
         <p>Art Dising by <a href="https://www.instagram.com/nandodjs/" target="_blank" class="a_onando_vis">oNando</a></p>

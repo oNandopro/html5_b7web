@@ -15,11 +15,19 @@ body {
     height: 100vh;
     margin: 0px;
 
-    background-image: url(/projeto_1_desenvolvedor_front/imagens/psico.png);
+    background-image: url(/projeto_1_desenvolvedor_front/imagens/psico3.png);
     background-repeat: repeat;
     background-size: 100%;
     background-attachment: scroll;
 }
+/* FOR STANDARD SETTINGS ONT THE HEAD/PARA CONFIGURAÇÕES PADRÃO NO CORPO */
+.f_black{
+    color: black;
+}
+.p_center{
+    text-align: center;
+}
+/* CABEÇALHO */
 .header_vis{
     text-align: center;
     margin-top: 60px;
@@ -28,6 +36,27 @@ body {
     margin-bottom: 0px;
     text-align: center;
     font-size: 5em;
+}
+/* MAIN */
+.div_vis{
+    margin: auto;
+    margin-top: 80px;
+    padding: 40px;
+    border-radius: 50px;
+    width: 70%;
+    height: auto;
+    line-height: 30px;
+    font-size: 1.5em;
+    background-color: rgba(29, 7, 7, 0.767);
+    box-shadow: 2px 2px 0px rgba(235, 50, 210, 0.164);
+}
+.txt_area{
+    width: 40%;
+    height: 150px
+}
+.p_voltar{
+    text-align: center;
+    margin-top: 50px;
 }
 .voltar{
     font-size: 2em;
