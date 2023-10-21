@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+* {
+    font-family: "AudioWide", cursive;
+    color: rgb(70, 252, 10);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    letter-spacing: 5px;
+    word-spacing: 0px;
+    
+
+}
+body {
+    width: 100wh;
+    height: 100vh;
+    margin: 0px;
+
+    background-image: url(/projeto_1_desenvolvedor_front/imagens/psico5.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+}

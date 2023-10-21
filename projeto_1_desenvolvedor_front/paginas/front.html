@@ -6,18 +6,31 @@
     <title>Front-End</title>
     <link rel="stylesheet" href="/projeto_1_desenvolvedor_front/estilos/style_front.css"> <!--Para criar página de estilo CSS-->
 </head>
-<body> 
+<body onresize="mudouTamanho()"> 
    <header class="header"> <!-- CABEÇALHO -->
         <h1>Projeto Desenvolvedor Full</h1>
         <p class="p1_header">
-                <a href="#parte1" class="f_green">Parte 1 </a>
+            <a href="#parte1" class="f_green">Parte 1 </a>
             / Front-End
         </p>
         <nav class="nav">Parte 2 / <!-- NAV -->
-                <a href="back.html" target="_self" title="Voltar" class="f_pink">Back-End</a>    
+            <a href="back.html" target="_self" title="Voltar" class="f_pink">Back-End</a>    
             \ \ \ \ + / / / /  Parte 3 / 
-                <a href="full.html" target="_self" title="Voltar" class="f_pink">Full-Stack</a>
+            <a href="full.html" target="_self" title="Voltar" class="f_pink">Full-Stack</a>    
         </nav>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            🙋🏻‍♂️
+        </span>
+
+        <menu id="itens">
+            <ul>
+                <li><a href="/projeto_1_desenvolvedor_front/paginas/resgistro.htm">Registre sua Vista</a></li>
+                <li><a href="#">............</a></li>
+                <li><a href="#">....</a></li>
+                <li><a href="#">..</a></li>
+                <li><a href="#">.</a></li>
+            </ul>
+        </menu>
    </header>
    <main><!-- CONTEÚDO PRINCIPAL -->
         <section>
@@ -115,5 +128,21 @@
    <footer class="footer"> <!-- RODAPÉ -->
         <p>Art Dising by <a href="https://www.instagram.com/nandodjs/" target="_blank" class="a_onando">oNando</a></p>
    </footer>
+   <script>
+    function mudouTamanho() {
+        if (window.innerWidth >= 768) {
+            itens.style.display = 'block'
+        } else {
+            itens.style.display = 'none'
+        }
+    }
+    function clickMenu() {
+        if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        } else {
+            itens.style.display = 'block'
+        }
+    }
+</script>
 </body>
 </html>
