@@ -22,35 +22,41 @@ body {
     background-size: 100%;
     background-attachment: scroll;
 }
-/* FOR STANDARD NO HEAD */
-.p_center{
+/* FOR STANDARD SETTINGS ONT THE HEAD/PARA CONFIGURAÇÕES PADRÃO NO CORPO */
+.p_center{ 
     text-align: center;
 }
-.a_white{
+.f_white{
     color: white;
     text-decoration: none;
 }
-.a_blue{
+.f_blue{
     color: rgb(56, 69, 250);
     text-decoration: none;
 }
-.a_blue:hover{
+.f_blue:hover{
     color: white;
 }
-.a_green{
+.f_green{
     text-decoration: none;
 }
-.a_green:hover{
+.f_green:hover{
     color: white;
 }
-.a_pink{
+.f_pink{
     color: #d816be;
     text-decoration: none;
 }
-.a_pink:hover{
+.f_pink:hover{
     color: white;
 }
+.decore_none{
+    text-decoration: none;
+}
 .decore_none:hover{
+    color: white;
+}
+.decore_none_h:hover{
     text-decoration: none;
     color: white;
 }
@@ -134,7 +140,7 @@ h1 {
     padding: 20px;
     text-align: justify;
     text-indent: 30px;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .tab_consulta{
     margin: auto;
@@ -144,8 +150,20 @@ h1 {
     overflow-y: auto;
     overflow-x: auto;
 }
+thead, tbody, th, td{
+    border: 1px solid white ;
+} 
+th{
+    height: 50px;
+}
+th:hover{
+    background-color: #d816be27;
+}
 td{
     padding-left: 15px;
+}
+td:hover{
+    background-color: #d816be13;
 }
 /**/
 /**/
