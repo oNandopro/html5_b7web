@@ -9,16 +9,40 @@
     box-sizing: border-box;
     letter-spacing: 5px;
     word-spacing: 0px;
-    
-
 }
 body {
     width: 100wh;
     height: 100vh;
     margin: 0px;
 
-    background-image: url(/projeto_1_desenvolvedor_front/imagens/psico5.png);
+    background-image: url(/projeto_1_desenvolvedor_front/imagens/psico.png);
     background-repeat: repeat;
     background-size: 100%;
     background-attachment: scroll;
+}
+.header_vis{
+    text-align: center;
+    margin-top: 60px;
+}
+.h1_vis{
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 5em;
+}
+.voltar{
+    font-size: 2em;
+    text-decoration: none;
+}
+/* FOOTER */
+.footer_vis{
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+}
+footer .a_onando_vis{
+    text-decoration: none;
+    color: #d816be;
+}
+footer .a_onando_vis:hover{
+    color: white ;
 }
