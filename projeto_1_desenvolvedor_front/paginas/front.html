@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front-End</title>
     <link rel="stylesheet" href="/projeto_1_desenvolvedor_front/estilos/style_front.css"> <!--Para criar página de estilo CSS-->
+    <link rel="stylesheet" href="/projeto_1_desenvolvedor_front/query/media-query.css">
 </head>
 <body onresize="mudouTamanho()"> 
    <header class="header"> <!-- CABEÇALHO -->
@@ -18,7 +19,7 @@
             \ \ \ \ + / / / /  Parte 3 / 
             <a href="full.html" target="_self" title="Voltar" class="f_pink">Full-Stack</a>    
         </nav>
-        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+        <span href="#volta_menu" id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
             🙋🏻‍♂️
         </span>
 
@@ -61,7 +62,9 @@
                 <p class="p_article1">
                 Sinta-se a vontade para explorar e conhecer um pouco mais sobre mim. <br> <br>
                 Under Construction...
-                </p>        
+                </p> 
+                <p class="p_article1"><a href="" id="volta_menu" class="decore_none">🔄</a>
+                </p>       
             </article>
 
             <article class="article2"> <!-- CURSOS E ESPECIALIZAÇÕES -->
@@ -90,6 +93,8 @@
                         JavaScript</a>
                     </li>
                 </ul>
+                <p class="p_article1"><a href="" id="volta_menu" class="decore_none">🔄</a>
+                </p> 
             </article>
             <div class="div_consulta" id="consulta"> <!-- TABELA DE CONSULTA -->
                 <h3 class="h3">Tabela de Orientação </h3>
@@ -122,12 +127,10 @@
                         </tr>
                     </tbody>
                 </table>
+                <p class="p_article1"><a href="" id="volta_menu" class="decore_none">🔄</a>
+                </p> 
             </div>
         </section>
-        <aside>
-
-        </aside>
-
    </main>
    <footer class="footer"> <!-- RODAPÉ -->
         <p>Art Dising by <a href="https://www.instagram.com/nandodjs/" target="_blank" class="a_onando">oNando</a></p>

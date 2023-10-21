@@ -95,7 +95,6 @@ span{
 }
 #burguer {
     margin-top: 30px;
-    background-color: rgba(29, 7, 7, 0.767);
     display: block;
     text-align: center;
     padding: 10px;
@@ -103,13 +102,12 @@ span{
 
 }
 #burguer:hover {
-    background-color: rgba(29, 7, 7, 0);
+    background-color: rgba(29, 7, 7, 0.767);
     color: black;
 }
 
 menu {
     display: none;
-    padding-left: 10px;
 }
 
 menu > ul {
@@ -137,11 +135,12 @@ menu > ul > li > a:hover {
     padding: 40px;
     border-radius: 50px;
     width: 70%;
-    height: 800px;
+    height: auto;
     background-color: rgba(29, 7, 7, 0.767);
     box-shadow: 2px 2px 0px rgba(235, 50, 210, 0.164);
 }
 .p_article1{
+    text-align: center;
     padding-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
@@ -155,7 +154,7 @@ menu > ul > li > a:hover {
     padding: 20px;
     border-radius: 50px;
     width: 50%;
-    height: 500px;
+    height: auto;
     background-color: rgba(29, 7, 7, 0.767);
     box-shadow: 2px 2px 0px rgba(235, 50, 210, 0.164);
     
@@ -173,7 +172,7 @@ menu > ul > li > a:hover {
     padding: 20px;
     border-radius: 50px;
     width: 90%;
-    height: 800px;
+    height: auto;
     background-color: rgba(29, 7, 7, 0.767);
     box-shadow: 2px 2px 0px rgba(235, 50, 210, 0.164);
 }
@@ -186,7 +185,7 @@ menu > ul > li > a:hover {
 .tab_consulta{
     margin: auto;
     width: 90%;
-    height: 400px;
+    height: auto;
     border-collapse: collapse;
     overflow-y: auto;
     overflow-x: auto;
@@ -202,6 +201,7 @@ th:hover{
 }
 td{
     padding-left: 15px;
+    height: 40px;
 }
 td:hover{
     background-color: #d816be13;
