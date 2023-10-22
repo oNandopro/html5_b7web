@@ -7,7 +7,6 @@
 }  
 * {
     font-family: "AudioWide", cursive;
-    color: white;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -68,27 +67,64 @@ body {
 }
 /* CABEÇALHO*/
 header{
-    /*background-image: url(/projeto_desenvolvedor_full/imagens/nando_dj/undervision_2.jpg);*/
     background-image: url(/projeto_desenvolvedor_full/imagens/nando_dj/kodama_corte.png);
     height: 30%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
+    background-attachment: scroll;
+    color: white;
+}
+.p_header{
+    padding-top: 1%;
+    padding-left: 30px;
 }
 /* MAIN */
-h1 {
+.div_nando{
+    background-image: linear-gradient(to bottom black, pink );
     margin-top: 50px;
+    height: 500px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+h1 {
     font-family: 'glith';
     font-size: 10em;
     text-align: center;
+}
+.imagem{
+    background-size: cover;
+    background-attachment: fixed;
+    color: #d816be;
+    font-size: 2em;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(29, 7, 7, 0.767);
+    box-shadow: inset 2px 2px 0px rgba(235, 50, 210, 0.164);
+}
+#looping{
+    background-image: url(/projeto_desenvolvedor_full/imagens/nando_dj/looping_2.jpg);
+    background-position: center;
+}
+/* FOOTER */
+.footer{
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
     color: white;
 }
-.div_realising{
-    margin-top: 50px;
-    text-align: center;
-    font-size: 1.5em;
+footer .a_onando{
+    text-decoration: none;
+    color: #d816be;
 }
-
+footer .a_onando:hover{
+    color: white;
+}
 /**/
 /**/
 /**/
