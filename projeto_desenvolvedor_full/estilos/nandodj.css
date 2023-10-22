@@ -26,11 +26,68 @@ body {
     background-size: 100%;
     background-attachment: scroll;
 }
+/* FOR STANDARD SETTINGS ONT THE HEAD/PARA CONFIGURAÇÕES PADRÃO NO CORPO */
+.p_center{ 
+    text-align: center;
+}
+.f_white{
+    color: white;
+    text-decoration: none;
+}
+.f_blue{
+    color: rgb(56, 69, 250);
+    text-decoration: none;
+}
+.f_blue:hover{
+    color: white;
+}
+.f_green{
+    text-decoration: none;
+}
+.f_green:hover{
+    color: white;
+}
+.f_pink{
+    color: #d816be;
+    text-decoration: none;
+}
+.f_pink:hover{
+    color: white;
+}
+.decore_none{
+    text-decoration: none;
+}
+.decore_none:hover{
+    color: white;
+}
+.decore_none_h:hover{
+    text-decoration: none;
+    color: white;
+}
+.h3{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2em
+    
+}
+/* CABEÇALHO*/
 h1 {
+    margin-top: 50px;
     font-family: 'glith';
     font-size: 10em;
     text-align: center;
     color: white;
 }
+/* MAIN */
+.div_realising{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/**/
+/**/
+/**/
+/**/
 
 
