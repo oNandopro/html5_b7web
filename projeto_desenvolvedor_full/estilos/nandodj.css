@@ -18,7 +18,7 @@ body {
     width: 100wh;
     height: 100vh;
     margin: 0px;
-    
+    color: rgb(252, 26, 10);
     background-image: url(/projeto_desenvolvedor_full/imagens/pai2.png);
     background-repeat: repeat;
     background-size: 100%;
@@ -68,24 +68,6 @@ body {
     font-size: 2em
     
 }
-.imagem{
-    background-size: cover;
-    background-attachment: fixed;
-    color: rgb(70, 252, 10);
-    font-size: 2em;
-    margin: auto;
-    text-align: center;
-    padding: 40px;
-    width: 100%;
-    height: auto;
-}
-.paragrafos{
-    background-color: rgba(29, 7, 7, 0.315);
-    display: inline-block;
-    padding: 15px;
-    text-shadow: 1px 1px 0px black ;
-    border-radius: 40px;
-}
 #voltar{
     background-color: none;
 }
@@ -106,16 +88,35 @@ header{
 /* MAIN */
 .div_nando{
     margin-top: 100px;
+    margin: auto;
     height: 500px;
     text-align: center;
     font-size: 1.5em;
-    color: rgb(70, 252, 10);
 }
 h1 {
+    margin: auto;
     font-family: 'glith';
     font-size: 10em;
     text-align: center;
-    color: rgb(70, 252, 10);
+    
+}
+.imagem{
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 2em;
+    margin: auto;
+    margin-top: 350px;
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    height: 500px;
+}
+.p_looping{
+    background-color: rgba(29, 7, 7, 0.842);
+    display: inline-block;
+    padding: 15px;
+    text-shadow: 1px 1px 0px black ;
+    border-radius: 40px;
 }
 #looping{
     background-image: url(/projeto_desenvolvedor_full/imagens/nando_dj/looping_2.jpg);
@@ -124,7 +125,6 @@ h1 {
 .imagem_origens{
     background-size: cover;
     background-attachment: fixed;
-    color: rgb(70, 252, 10);
     font-size: 2em;
     padding: 40px;
     width: 100%;
@@ -132,16 +132,15 @@ h1 {
 }
 #origens{
     margin-top: 500px;
-    height: 70vh;
+    height: auto;
     background-image: url(/projeto_desenvolvedor_full/imagens/nando_dj/origens_edit.png);
     background-position: center;
 }
 #p_origens{
-    
     width: 45%;
     height: 80%;
-    padding: auto ;
-    background-color: rgba(29, 7, 7, 0.315);
+    padding: 15px ;
+    background-color: rgba(29, 7, 7, 0.842);
     display: inline-block;
     text-shadow: 1px 1px 0px black ;
     border-radius: 40px;
