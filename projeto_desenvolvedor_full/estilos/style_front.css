@@ -10,7 +10,6 @@
     letter-spacing: 5px;
     word-spacing: 0px;
     word-wrap: break-word;
-
 }
 body {
     width: 100wh;
@@ -63,8 +62,7 @@ body {
 .h3{
     text-align: center;
     margin-top: 25px;
-    font-size: 2em
-    
+    font-size: 2em;
 }
 /* CABEÇALHO */
 .header{

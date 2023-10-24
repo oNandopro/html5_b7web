@@ -1,2 +1,14 @@
 @charset "UTF-8";
 
+@media (max-width: 600px){
+    h1 {
+        font-size: 2em;
+    }
+    .p1_header {
+        font-size: 1em;
+    }
+    nav {
+        font-size: 1em;
+    }
+}
+
