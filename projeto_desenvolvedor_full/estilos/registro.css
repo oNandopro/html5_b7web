@@ -53,6 +53,12 @@ body {
     font-size: 5em;
 }
 /* MAIN */
+fieldset{
+    background-color: rgba(65, 6, 6, 0.164);
+    margin: 30px 30px;
+    border: 1px solid;
+    padding: 30px;
+}
 .div_vis{
     margin: auto;
     margin-top: 80px;
@@ -79,6 +85,7 @@ body {
 label {
     display: block;
     margin-top: 20px;
+    color: rgb(216, 252, 10);
 }
 input, select, textarea{
     margin-top: 15px;

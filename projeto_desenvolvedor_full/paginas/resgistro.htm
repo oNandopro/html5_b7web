@@ -14,41 +14,51 @@
         <div class="div_vis"> <!-- PARA FORMULÁRIO DE REGISTRO DE VISITANTE E CADASTRO-->
             <form action="/projeto_desenvolvedor_full/paginas/front.html" method="get">
                 
-                <label>
-                    Nome Completo: <br> 
-                    <input type="text" name="usuario" value="" class="caixa">
-                </label>
-
-                <label>
-                     e-mail: <br>
-                    <input type="email" name="email" id="" class="caixa">
-                </label>
-
-                <label>
-                    Senha <br>
-                    <input type="password" name="senha" class="caixa">
-                </label>
-
-                <label>
-                    Sexo: 
-                        <input type="radio" name="sexo"> Masculino
-                        <input type="radio" name="sexo"> Feminino
-                </label>
-
-                <label>
-                    Data de Nascimento: <br>
-                        <input type="date" name="data de nascimento" class="caixa">
-                </label>
-
-                <label>
-                    Se defina: <br>
-                        <select name="usuario" id="" class="caixa">
-                            <option value=""></option>
-                            <option value="recrutador">Recrutador</option>
-                            <option value="estudante">Estudante</option>
-                            <option value="curioso">Curioso</option>
-                        </select>
-                </label>
+                <fieldset>
+                    <legend>DADOS PESSOAIS</legend>
+                    <label>
+                        Nome Completo: <br>
+                        <input type="text" name="usuario" value="" class="caixa">
+                    </label>
+                    <label>
+                         e-mail: <br>
+                            <input type="email" name="email" id="" class="caixa">
+                    </label>
+                    <label>
+                        Senha <br>
+                        <input type="password" name="senha" class="caixa">
+                    </label>
+                    <label>
+                        Data de Nascimento: <br>
+                            <input type="date" name="data de nascimento" class="caixa">
+                    </label>
+                    <label>
+                        Você é: <br>
+                            <select name="usuario" id="" class="caixa">
+                                <option value=""></option>
+                                <option value="recrutador">Recrutador</option>
+                                <option value="estudante">Estudante</option>
+                                <option value="curioso">Curioso</option>
+                            </select>
+                    </label>
+                    <label>
+                        Sexo:
+                            <input type="radio" name="sexo"> Masculino
+                            <input type="radio" name="sexo"> Feminino
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>DADOS PROFISSIONAIS</legend>
+                    <label>
+                        Qual sua Profissão atual? <br>
+                        <input type="text" name="profissao" value="" class="caixa">
+                    </label>
+                    <label>
+                        A Quanto tempo? <br>
+                        <input type="number" name="tempo" value="" class="caixa">
+                        Ano(s)
+                    </label>
+                </fieldset>
 
                 <label for="txt">
                     Deixe aqui seu feed_back, criticas e sujestões:
