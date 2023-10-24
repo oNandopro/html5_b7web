@@ -9,6 +9,7 @@
     box-sizing: border-box;
     letter-spacing: 5px;
     word-spacing: 0px;
+    word-wrap: break-word;
 }
 body {
     width: 100wh;
@@ -92,10 +93,10 @@ input, select, textarea{
     border: 1px solid ; 
 }
 textarea{
-    height: 50vh;
+    height: 30vh;
 }
 .caixa{
-    width: 500px;
+    width: 40vw;
 }
 #div_botao{
     margin-top: 100px;
