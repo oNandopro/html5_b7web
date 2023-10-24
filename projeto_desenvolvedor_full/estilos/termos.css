@@ -9,23 +9,26 @@
     box-sizing: border-box;
     letter-spacing: 5px;
     word-spacing: 0px;
+    word-wrap: break-word;
+
 }
 body {
     width: 100wh;
     height: 100vh;
     margin: 0px;
 
-    background-image: url(/projeto_desenvolvedor_full/imagens/psico3.png);
+    background-image: url(/projeto_desenvolvedor_full/imagens/pai.png);
     background-repeat: repeat;
     background-size: 100%;
     background-attachment: scroll;
 }
 /* FOR STANDARD SETTINGS ONT THE HEAD/PARA CONFIGURAÇÕES PADRÃO NO CORPO */
-.f_black{
-    color: black;
-}
-.p_center{
+.p_center{ 
     text-align: center;
+}
+.f_white{
+    color: white;
+    text-decoration: none;
 }
 .f_blue{
     color: rgb(56, 69, 250);
@@ -34,51 +37,64 @@ body {
 .f_blue:hover{
     color: white;
 }
+.f_green{
+    text-decoration: none;
+}
+.f_green:hover{
+    color: white;
+}
+.f_pink{
+    color: #d816be;
+    text-decoration: none;
+}
+.f_pink:hover{
+    color: white;
+}
+.decore_none{
+    text-decoration: none;
+}
+.decore_none:hover{
+    color: white;
+}
+.decore_none_h:hover{
+    text-decoration: none;
+    color: white;
+}
+.h3{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2em   
+}
 /* CABEÇALHO */
-.header_vis{
+.header{
     text-align: center;
     margin-top: 60px;
 }
-.h1_vis{
+.h1_header{
     margin-bottom: 0px;
     text-align: center;
     font-size: 5em;
+    color: #d816be ;
 }
-/* MAIN */
-.div_vis{
-    margin: auto;
-    margin-top: 80px;
-    padding: 40px;
-    border-radius: 50px;
-    width: 70%;
-    height: auto;
-    line-height: 30px;
-    font-size: 1.5em;
-    background-color: rgba(29, 7, 7, 0.767);
-    box-shadow: 2px 2px 0px rgba(235, 50, 210, 0.164);
-}
-.txt_area{
-    width: 40%;
-    height: 150px
-}
-.p_voltar{
-    text-align: center;
-    margin-top: 50px;
-}
-.voltar{
+.a_header{
     font-size: 2em;
+    color: #f59fe9 ;
+    border-radius: 10px;
     text-decoration: none;
 }
+.a_header:hover{
+    color: #d816be;
+}
 /* FOOTER */
-.footer_vis{
+.footer{
     text-align: center;
     height: 50px;
     margin-top: 50px;
 }
-footer .a_onando_vis{
+footer .a_onando{
     text-decoration: none;
-    color: #d816be;
+    color: white;
 }
-footer .a_onando_vis:hover{
-    color: white ;
+footer .a_onando:hover{
+    color: #d816be ;
 }

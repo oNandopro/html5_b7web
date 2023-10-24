@@ -13,40 +13,65 @@
     <main class="main_vis">
         <div class="div_vis">
             <form action="/projeto_desenvolvedor_full/paginas/front.html" method="get">
-                <p> Nome:
-                    <input type="text" name="usuario" value="">
-                </p>
-                <p> e-mail:
-                    <input type="email" name="email" id="">
-                </p>
-                <p> Senha
-                    <input type="password" name="senha">
-                </p>
-                <p>Sexo
-                    <input type="radio" name="sexo"> Masculino
-                    <input type="radio" name="sexo"> Feminino
-                </p>
-                <p>Data de Nascimento: 
-                    <input type="date" name="data de nascimento" class="f_black">
-                </p>
-                <p> Se defina:
-                    <select name="usuario" id="" class="f_black">
-                        <option value=""></option>
-                        <option value="recrutador">Recrutador</option>
-                        <option value="estudante">Estudante</option>
-                        <option value="curioso">Curioso</option>
-
-                    </select>
-                </p>
-                <p> Deixe aqui seu feed_back, criticas e sujestões:</p>
                 <p>
-                    <textarea name="descrição" id="" class="txt_area"></textarea>
+                    <label>
+                        Nome:
+                            <input type="text" name="usuario" value="">
+                    </label>
                 </p>
-                <p>Confirme dados para enviar:
-                    <input type="checkbox" name="checar"> OK
+                <p> 
+                    <label>
+                        e-mail:
+                            <input type="email" name="email" id="">
+                    </label>
+                </p>
+                <p> 
+                    <label>
+                        Senha
+                            <input type="password" name="senha">
+                    </label>
                 </p>
                 <p>
-                    <input type="submit" value="ENVIAR CADASTRO" name="enviar" class="f_black"/>
+                    <label>
+                        Sexo
+                            <input type="radio" name="sexo"> Masculino
+                            <input type="radio" name="sexo"> Feminino
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Data de Nascimento:
+                            <input type="date" name="data de nascimento" class="f_black">
+                    </label>
+                </p>
+                <p> 
+                    <label>
+                        Se defina:
+                            <select name="usuario" id="" class="f_black">
+                                <option value=""></option>
+                                <option value="recrutador">Recrutador</option>
+                                <option value="estudante">Estudante</option>
+                                <option value="curioso">Curioso</option>
+                            </select>
+                    </label>
+                </p>
+                <p> <label for="txt">
+                        Deixe aqui seu feed_back, criticas e sujestões:
+                    </label></p>
+                <p>
+                    <textarea name="descrição" id="txt" class="txt_area"></textarea>
+                </p>
+                <p>
+                    <label>
+                        Declaro que li e aceito os 
+                            <a href="/projeto_desenvolvedor_full/paginas/termos.html" target="_blank" class="f_blue">
+                                termos de uso
+                            </a>:
+                            <input type="checkbox" name="checar"> OK
+                    </label>
+                </p>
+                <p>
+                    <input type="submit" value="ENVIAR pelo >input<" name="enviar" class="f_black"/>
                 </p>
             </form>
             <p class="p_voltar">
