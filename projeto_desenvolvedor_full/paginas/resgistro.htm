@@ -12,39 +12,45 @@
     </header>
     <main class="main_vis">
         <div class="div_vis"> <!-- PARA FORMULÁRIO DE REGISTRO DE VISITANTE E CADASTRO-->
-            <form action="/projeto_desenvolvedor_full/paginas/front.html" method="get">
+            <form action="/projeto_desenvolvedor_full/paginas/front.html" method="get" enctype="multipart/form-data">
                 
                 <fieldset>
                     <legend>DADOS PESSOAIS</legend>
                     <label>
                         Nome Completo: <br>
-                        <input type="text" name="usuario" value="" class="caixa">
+                        <input type="text" name="usuario" value="" class="caixa" required minlength="3">
                     </label>
                     <label>
                          e-mail: <br>
-                            <input type="email" name="email" id="" class="caixa">
+                        <input type="email" name="email" id="" class="caixa" required
+                        pattern="(^[a-zA-Z0-9_.+-]=@[a-zA-Z0-9-]=\.[a-zA-Z0-9-.]=$)" title="endereço de e-mail"> 
+                        <!-- EXPRESSÃO REGULAR QUE VÁLIDA UM EMAIL-->
                     </label>
                     <label>
                         Senha <br>
-                        <input type="password" name="senha" class="caixa">
+                        <input type="password" name="senha" class="caixa" required minlength="4">
                     </label>
                     <label>
                         Data de Nascimento: <br>
-                            <input type="date" name="data de nascimento" class="caixa">
+                        <input type="date" name="birthday" class="caixa" required>
                     </label>
                     <label>
                         Você é: <br>
-                            <select name="usuario" id="" class="caixa">
-                                <option value=""></option>
-                                <option value="recrutador">Recrutador</option>
-                                <option value="estudante">Estudante</option>
-                                <option value="curioso">Curioso</option>
-                            </select>
+                        <select name="usuario" id="" class="caixa" required>
+                            <option value=""></option>
+                            <option value="recrutador">Recrutador</option>
+                            <option value="estudante">Estudante</option>
+                            <option value="curioso">Curioso</option>
+                        </select>
                     </label>
                     <label>
                         Sexo:
-                            <input type="radio" name="sexo"> Masculino
-                            <input type="radio" name="sexo"> Feminino
+                        <input type="radio" name="sexo"> Masculino
+                        <input type="radio" name="sexo"> Feminino
+                    </label>
+                    <label>
+                        Foto: <br> 
+                        <input type="file" name="foto" accept="image/*" class="caixa">
                     </label>
                 </fieldset>
                 <fieldset>
@@ -55,26 +61,31 @@
                     </label>
                     <label>
                         A Quanto tempo? <br>
-                        <input type="number" name="tempo" value="" class="caixa">
+                        <input type="number" name="tempo" value="" min="0" max="120" class="caixa">
                         Ano(s)
                     </label>
                 </fieldset>
 
-                <label for="txt">
-                    Deixe aqui seu feed_back, criticas e sujestões:
-                </label>
+                <fieldset>
+                    <legend>CONSIDERAÇÕES FINAIS</legend>
+                    <label for="txt">
+                        Deixe aqui seu feed-back, criticas e sujestões:
+                    </label>
                     
-                <textarea name="descrição" id="txt" class="caixa"></textarea>
-                
-                <label>
-                    Declaro que li e aceito os 
+                    <textarea name="descrição" id="txt" class="caixa"></textarea>
+                    
+                    <label>
+                        Declaro que li e aceito os
                         <a href="/projeto_desenvolvedor_full/paginas/termos.html" target="_blank" class="f_blue">
                             Termos de uso
                         </a>:
-                        <input type="checkbox" name="checar"> OK
-                </label>
-                
-                <input type="submit" value="ENVIAR CADASTRO" name="enviar" id="i_enviar" class="f_pink"/>
+                        <input type="checkbox" name="checar" required> OK
+                    </label>
+                </fieldset>
+
+                <div id="div_botao">
+                    <input type="submit" value="ENVIAR CADASTRO" name="enviar" id="i_enviar" class="f_pink"/>
+                </div>
                 
             </form>
             <p class="p_voltar">
