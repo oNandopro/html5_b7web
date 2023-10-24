@@ -8,71 +8,64 @@
 </head>
 <body>
     <header class="header_vis"> <!-- CABEÇALHO -->
-        <h1 class="h1_vis">Registro de Visitante</h1>
+        <h1 class="h1_vis">Registro de Visitante/Cadastro</h1>
     </header>
     <main class="main_vis">
-        <div class="div_vis">
+        <div class="div_vis"> <!-- PARA FORMULÁRIO DE REGISTRO DE VISITANTE E CADASTRO-->
             <form action="/projeto_desenvolvedor_full/paginas/front.html" method="get">
-                <p>
-                    <label>
-                        Nome:
-                            <input type="text" name="usuario" value="">
-                    </label>
-                </p>
-                <p> 
-                    <label>
-                        e-mail:
-                            <input type="email" name="email" id="">
-                    </label>
-                </p>
-                <p> 
-                    <label>
-                        Senha
-                            <input type="password" name="senha">
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        Sexo
-                            <input type="radio" name="sexo"> Masculino
-                            <input type="radio" name="sexo"> Feminino
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        Data de Nascimento:
-                            <input type="date" name="data de nascimento" class="f_black">
-                    </label>
-                </p>
-                <p> 
-                    <label>
-                        Se defina:
-                            <select name="usuario" id="" class="f_black">
-                                <option value=""></option>
-                                <option value="recrutador">Recrutador</option>
-                                <option value="estudante">Estudante</option>
-                                <option value="curioso">Curioso</option>
-                            </select>
-                    </label>
-                </p>
-                <p> <label for="txt">
-                        Deixe aqui seu feed_back, criticas e sujestões:
-                    </label></p>
-                <p>
-                    <textarea name="descrição" id="txt" class="txt_area"></textarea>
-                </p>
-                <p>
-                    <label>
-                        Declaro que li e aceito os 
-                            <a href="/projeto_desenvolvedor_full/paginas/termos.html" target="_blank" class="f_blue">
-                                termos de uso
-                            </a>:
-                            <input type="checkbox" name="checar"> OK
-                    </label>
-                </p>
-                <p>
-                    <input type="submit" value="ENVIAR pelo >input<" name="enviar" class="f_black"/>
-                </p>
+                
+                <label>
+                    Nome Completo: <br> 
+                    <input type="text" name="usuario" value="" class="caixa">
+                </label>
+
+                <label>
+                     e-mail: <br>
+                    <input type="email" name="email" id="" class="caixa">
+                </label>
+
+                <label>
+                    Senha <br>
+                    <input type="password" name="senha" class="caixa">
+                </label>
+
+                <label>
+                    Sexo: 
+                        <input type="radio" name="sexo"> Masculino
+                        <input type="radio" name="sexo"> Feminino
+                </label>
+
+                <label>
+                    Data de Nascimento: <br>
+                        <input type="date" name="data de nascimento" class="caixa">
+                </label>
+
+                <label>
+                    Se defina: <br>
+                        <select name="usuario" id="" class="caixa">
+                            <option value=""></option>
+                            <option value="recrutador">Recrutador</option>
+                            <option value="estudante">Estudante</option>
+                            <option value="curioso">Curioso</option>
+                        </select>
+                </label>
+
+                <label for="txt">
+                    Deixe aqui seu feed_back, criticas e sujestões:
+                </label>
+                    
+                <textarea name="descrição" id="txt" class="caixa"></textarea>
+                
+                <label>
+                    Declaro que li e aceito os 
+                        <a href="/projeto_desenvolvedor_full/paginas/termos.html" target="_blank" class="f_blue">
+                            Termos de uso
+                        </a>:
+                        <input type="checkbox" name="checar"> OK
+                </label>
+                
+                <input type="submit" value="ENVIAR CADASTRO" name="enviar" id="i_enviar" class="f_pink"/>
+                
             </form>
             <p class="p_voltar">
                 <a href="\projeto_desenvolvedor_full/paginas/front.html" class="voltar">🔄</a>

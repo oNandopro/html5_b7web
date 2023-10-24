@@ -34,6 +34,14 @@ body {
 .f_blue:hover{
     color: white;
 }
+.f_pink{
+    color: #fd06dc;
+    text-decoration: none;
+}
+.f_pink:hover{
+    color: white;
+    cursor: pointer;
+}
 /* CABEÇALHO */
 .header_vis{
     text-align: center;
@@ -57,9 +65,8 @@ body {
     background-color: rgba(29, 7, 7, 0.767);
     box-shadow: 2px 2px 0px rgba(235, 50, 210, 0.164);
 }
-.txt_area{
-    width: 40%;
-    height: 150px
+#txt{
+    resize: none; /* PARA TIRAR A OPÇÃO DE AMPLIAR A CAIXA DE TEXTO PARA O USUÁRIO */
 }
 .p_voltar{
     text-align: center;
@@ -68,6 +75,38 @@ body {
 .voltar{
     font-size: 2em;
     text-decoration: none;
+}
+label {
+    display: block;
+    margin-top: 20px;
+}
+input, select, textarea{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgba(92, 22, 22, 0.644);
+    font-size: .8em;
+    outline: 0; /* PARA TIRAR A LINHA DAS BORDAS DO INPUT */
+    border: 1px solid ; 
+}
+textarea{
+    height: 200px;
+}
+.caixa{
+    width: 500px;
+}
+input[type="submit"]{ /* NÃO CONSEGUI CENTRALIZAR AINDA O BOTÃO DE ENVIAR CADASTRO */
+    color: #d816be;
+}
+#i_enviar{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: .8em;
+    text-align: center;
+    background-color: rgba(29, 2, 2, 0.959);
+    border-radius: 15px;
+}
+#i_enviar:hover{
+    background-color: black;
 }
 /* FOOTER */
 .footer_vis{
