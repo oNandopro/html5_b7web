@@ -27,37 +27,195 @@ att: 09/08/2023
     
 }
 
-/* Mobile devices – 320px — 480px (dispositivos móveis) */
-@media screen and (min-width: 280px) and (max-width: 480px){ 
-    h1 {
-        font-size: 1.5em;
+/* Mobile devices max 319px (dispositivos móveis) - DIMENSIONS: GALAXY FOLD 280-663 */
+@media screen and (max-width: 319px){ 
+    *{
+        letter-spacing: 0px;
     }
-    .p1_header {
-        font-size: 1em;
+    /* CABEÇALHO */
+    h1 {
+        font-size: 1.8em;
+    }
+    .h2_header {
+        font-size: 1.3em;
+        margin-top: 30px;
+    
     }
     nav {
         font-size: 1em;
+        line-height: 30px;
+    }
+    span{
+        font-size: 1.5em;
+    }
+    .a_menu{
+        font-size: 1.2em;
+    }
+    /* PARTE 1 */
+    .article1{
+        margin-top: 35px;
+        width: 85%;
+        padding: 10px;
+        line-height: 23px;
+    }
+    .p_article1{
+        font-size: 1em;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    /* CURSOS E ESPECIALIZAÇÕES */
+    .article2{
+        margin-top: 35px;
+        width: 85%;
+    }
+    .h3 {
+        font-size: 1.2em;
+        padding-bottom: 30px;
+    }
+    .art_ul{
+        margin-top: 10px;
+        font-size: 1em;
+        line-height: 30px;
+    }
+    /* TABELA DE CONSULTA */
+    .div_consulta{
+        margin-top: 35px;
+        width: 85%;
+    }
+    .p_consulta{
+        padding: 10px;
+        line-height: 30px;
+        font-size: 1em;
+        text-align: justify;
+        text-indent: 0px;
+    }
+    .tab_consulta{
+        display: inline block;
+    }
+    /* PROJETOS*/
+    .div_projetos{
+        margin-top: 35px;
+        width: 85%;
+    }
+    /* FOOTER */
+    .footer{
+        font-size: 1em;
     }
 }
 
-/* iPads, Tablets – 481px — 768px (tablets). */
+/* Mobile devices – 320px — 480px (dispositivos móveis) - DIMENSIONS: IPHONE 12 390-844 */
+@media screen and (min-width: 320px) and (max-width: 480px){ 
+    *{
+        letter-spacing: 0px;
+    }
+    /* CABEÇALHO */
+    h1 {
+        font-size: 2.5em;
+        
+    }
+    .h2_header {
+        font-size: 1.7em;
+        margin-top: 30px;
+        letter-spacing: 1px;
+    }
+    nav {
+        font-size: 1.2em;
+        line-height: 30px;
+        
+    }
+    span{
+        font-size: 1.6em;
+    }
+    .a_menu{
+        font-size: 1.2em;
+    }
+    /* PARTE 1 */
+    .article1{
+        width: 85%;
+        padding: 10px;
+        line-height: 30px;
+    }
+    .p_article1{
+        font-size: 1.2em;
+        padding: 10px; 
+    }
+    /* CURSOS E ESPECIALIZAÇÕES */
+    .article2{
+        width: 80%;
+    }
+    .h3 {
+        font-size: 1.6em;
+    }
+    .art_ul{
+        font-size: 1.2em;
+        line-height: 30px;
+    }
+    /* TABELA DE CONSULTA */
+    .div_consulta{
+        margin-top: 35px;
+        width: 85%;
+    }
+    .p_consulta{
+        padding: 10px;
+        line-height: 30px;
+        font-size: 1em;
+        text-align: justify;
+        text-indent: 0px;
+    }
+    .tab_consulta{
+        display: inline block;
+    }
+    /* PROJETOS*/
+    .div_projetos{
+        margin-top: 35px;
+        width: 85%;
+    }
+    /* FOOTER */
+    .footer{
+        font-size: 1em;
+    }
+}
+
+/* iPads, Tablets – 481px — 765px (tablets) - DIMENSIONS: SURFACE DUO 540-720*/
 @media screen and (min-width: 481px) and (max-width: 768px) { 
-   
+   *{
+    letter-spacing: 3px;
+   }
+   /* CABEÇALHO */
+   /* PARTE 1 */
+   /* CURSOS E ESPECIALIZAÇÕES */
 }
 
-/* Small screens, laptops – 769px — 1024px (tela pequena). */
+/* Small screens, laptops – 766px — 1025px (tela pequena) - DIMENSIONS: IPAD MINI 768-1024*/
 @media screen and (min-width: 769px) and (max-width: 1024px) { 
-   
+    *{
+        letter-spacing: 4px;
+    }
+    /* CABEÇALHO */
+    /* PARTE 1 */
+    /* CURSOS E ESPECIALIZAÇÕES */
+    
 }
 
-/* Desktops, large screens – 1025px — 1200px (tela larga). */
+/* Desktops, large screens – 1026px — 1200px (tela larga) - DIMENSIONS: IPAD AIR 1180-820 */
 @media screen and (min-width: 1025px) and (max-width: 1200px) { 
-   
+    *{
+        letter-spacing: 5px;
+    }
+    /* CABEÇALHO */
+    /* PARTE 1 */
+    /* CURSOS E ESPECIALIZAÇÕES */
+    
 }
   
-/* Extra large screens, TV – 1201px, and more (tela grande) */
+/* Extra large screens, TV – 1201px, and more (tela grande) - DIMENSIONS: NEST HUB MAX 1280-800 */
 @media screen and (min-width: 1201px)  { 
-  
+    *{
+        letter-spacing: 6px;
+    }
+    /* CABEÇALHO */
+    /* PARTE 1 */
+    /* CURSOS E ESPECIALIZAÇÕES */
+    
 } 
-
 
