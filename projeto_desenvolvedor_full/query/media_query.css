@@ -111,7 +111,6 @@ att: 09/08/2023
     /* CABEÇALHO */
     h1 {
         font-size: 2.5em;
-        
     }
     .h2_header {
         font-size: 1.7em;
@@ -131,17 +130,20 @@ att: 09/08/2023
     }
     /* PARTE 1 */
     .article1{
+        margin-top: 35px;
         width: 85%;
         padding: 10px;
         line-height: 30px;
     }
     .p_article1{
+        margin-top: 30px;
         font-size: 1.2em;
-        padding: 10px; 
+        padding: 12px; 
     }
     /* CURSOS E ESPECIALIZAÇÕES */
     .article2{
-        width: 80%;
+        width: 85%;
+        margin-top: 45px;
     }
     .h3 {
         font-size: 1.6em;
@@ -152,7 +154,7 @@ att: 09/08/2023
     }
     /* TABELA DE CONSULTA */
     .div_consulta{
-        margin-top: 35px;
+        margin-top: 45px;
         width: 85%;
     }
     .p_consulta{
@@ -162,12 +164,9 @@ att: 09/08/2023
         text-align: justify;
         text-indent: 0px;
     }
-    .tab_consulta{
-        display: inline block;
-    }
     /* PROJETOS*/
     .div_projetos{
-        margin-top: 35px;
+        margin-top: 45px;
         width: 85%;
     }
     /* FOOTER */
@@ -182,8 +181,75 @@ att: 09/08/2023
     letter-spacing: 3px;
    }
    /* CABEÇALHO */
-   /* PARTE 1 */
-   /* CURSOS E ESPECIALIZAÇÕES */
+   h1 {
+        font-size: 3.4em;
+    }
+    .h2_header {
+        font-size: 2.0em;
+        margin-top: 30px;
+        margin-bottom: 35px;
+        letter-spacing: 3px;
+    }
+    nav {
+        font-size: 1.5em;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin-bottom: 55px;
+    }
+    span{
+        font-size: 2.5em;
+    }
+    .a_menu{
+        padding: 15px;
+        font-size: 1.5em;
+    }
+    /* PARTE 1 */
+    .article1{
+        margin-top: 55px;
+        width: 85%;
+        padding: 10px;
+        line-height: 30px;
+    }
+    .p_article1{
+        margin-top: 30px;
+        font-size: 1.5em;
+        padding: 12px; 
+    }
+    /* CURSOS E ESPECIALIZAÇÕES */
+    .article2{
+        width: 85%;
+        margin-top: 55px;
+    }
+    .h3 {
+        font-size: 2em;
+    }
+    .art_ul{
+        font-size: 1.5em;
+        line-height: 30px;
+    }
+    /* TABELA DE CONSULTA */
+    .div_consulta{
+        margin-top: 55px;
+        width: 85%;
+    }
+    .p_consulta{
+        margin-top: 35px;
+        margin-bottom: 35px;
+        padding: 10px;
+        line-height: 30px;
+        font-size: 1.5em;
+        text-align: justify;
+        text-indent: 0px;
+    }
+    /* PROJETOS*/
+    .div_projetos{
+        margin-top: 55px;
+        width: 85%;
+    }
+    /* FOOTER */
+    .footer{
+        font-size: 1.3em;
+    }   
 }
 
 /* Small screens, laptops – 766px — 1025px (tela pequena) - DIMENSIONS: IPAD MINI 768-1024*/
