@@ -9,6 +9,10 @@ Small screens, laptops – 769px — 1024px (tela pequena).
 Desktops, large screens – 1025px — 1200px (tela larga). 
 Extra large screens, TV – 1201px, and more (tela grande).
 att: 09/08/2023
+
+26/10/23
+- primeira parte de responsividade pronta, falta a parte da tabela de consulta.
+
 */
 
 /*Impressora*/
@@ -40,6 +44,9 @@ att: 09/08/2023
         font-size: 1.3em;
         margin-top: 30px;
     
+    }
+    #detalhe_header{
+        display: none;
     }
     nav {
         font-size: 1em;
@@ -117,10 +124,12 @@ att: 09/08/2023
         margin-top: 30px;
         letter-spacing: 1px;
     }
+    #detalhe_header{
+        display: none;
+    }
     nav {
-        font-size: 1.2em;
+        font-size: 1em;
         line-height: 30px;
-        
     }
     span{
         font-size: 1.6em;
@@ -179,21 +188,24 @@ att: 09/08/2023
 @media screen and (min-width: 481px) and (max-width: 765px) { 
    *{
     letter-spacing: 3px;
-   }
-   /* CABEÇALHO */
-   h1 {
-        font-size: 3.4em;
+    }
+    /* CABEÇALHO */
+    h1 {
+        font-size: 3.2em;
     }
     .h2_header {
         font-size: 2.0em;
         margin-top: 30px;
-        margin-bottom: 35px;
+        margin-bottom: 15px;
         letter-spacing: 3px;
     }
+    #detalhe_header{
+        display: none;
+    }
     nav {
-        font-size: 1.5em;
+        font-size: 1.1em;
         line-height: 30px;
-        letter-spacing: 1px;
+        letter-spacing: 0px;
         margin-bottom: 55px;
     }
     span{
@@ -267,8 +279,11 @@ att: 09/08/2023
         margin-bottom: 35px;
         letter-spacing: 3px;
     }
+    #detalhe_header{
+        display: none;
+    }
     nav {
-        font-size: 2em;
+        font-size: 1.8em;
         line-height: 50px;
         letter-spacing: 1px;
         margin-bottom: 55px;
@@ -338,16 +353,16 @@ att: 09/08/2023
     }
     /* CABEÇALHO */
     h1 {
-        font-size: 7em;
+        font-size: 6em;
     }
     .h2_header {
-        font-size: 5em;
-        margin-top: 50px;
-        margin-bottom: 35px;
+        font-size: 3.5em;
+        margin-top: 70px;
+        margin-bottom: 15px;
         letter-spacing: 3px;
     }
     nav {
-        font-size: 2em;
+        font-size: 1.6em;
         line-height: 50px;
         letter-spacing: 0px;
         margin-bottom: 55px;
@@ -357,36 +372,36 @@ att: 09/08/2023
     }
     .a_menu{
         padding: 15px;
-        font-size: 1.8em;
+        font-size: 2em;
     }
     /* PARTE 1 */
     .article1{
-        margin-top: 75px;
+        margin-top: 115px;
         width: 80%;
         padding: 20px;
         line-height: 30px;
     }
     .p_article1{
         margin-top: 30px;
-        font-size: 1.8em;
+        font-size: 2em;
         padding: 20px; 
-        line-height: 40px;
+        line-height: 50px;
     }
     /* CURSOS E ESPECIALIZAÇÕES */
     .article2{
-        width: 75%;
-        margin-top: 75px;
+        width: 55%;
+        margin-top: 115px;
     }
     .h3 {
-        font-size: 2.5em;
+        font-size: 3em;
     }
     .art_ul{
-        font-size: 1.8em;
-        line-height: 40px;
+        font-size: 2em;
+        line-height: 50px;
     }
     /* TABELA DE CONSULTA */
     .div_consulta{
-        margin-top: 75px;
+        margin-top: 115px;
         width: 80%;
     }
     .p_consulta{
@@ -400,13 +415,13 @@ att: 09/08/2023
     }
     /* PROJETOS*/
     .div_projetos{
-        margin-top: 75px;
-        width: 75%;
+        margin-top: 115px;
+        width: 55%;
     }
     /* FOOTER */
     .footer{
         margin-top: 75px;
-        font-size: 1.3em;
+        font-size: 1.5em;
     }   
 }   
 
@@ -417,8 +432,80 @@ att: 09/08/2023
         letter-spacing: 6px;
     }
     /* CABEÇALHO */
+    h1 {
+        font-size: 6em;
+    }
+    .h2_header {
+        font-size: 4em;
+        margin-top: 70px;
+        margin-bottom: 15px;
+        letter-spacing: 3px;
+    }
+    nav {
+        font-size: 1.8em;
+        line-height: 50px;
+        letter-spacing: 0px;
+        margin-bottom: 55px;
+    }
+    span{
+        font-size: 3.5em;
+    }
+    .a_menu{
+        padding: 25px;
+        font-size: 2.5em;
+    }
     /* PARTE 1 */
+    .article1{
+        margin-top: 115px;
+        width: 80%;
+        padding: 40px;
+        line-height: 50px;
+    }
+    .p_article1{
+        margin-top: 30px;
+        font-size: 2.5em;
+        padding: 40px; 
+        line-height: 50px;
+    }
     /* CURSOS E ESPECIALIZAÇÕES */
+    .article2{
+        width: 55%;
+        margin-top: 115px;
+    }
+    .h3 {
+        font-size: 3.5em;
+    }
+    .art_ul{
+        font-size: 2.5em;
+        line-height: 50px;
+    }
+    /* TABELA DE CONSULTA */
+    .div_consulta{
+        margin-top: 115px;
+        width: 80%;
+    }
+    .p_consulta{
+        margin-top: 35px;
+        margin-bottom: 35px;
+        padding: 55px;
+        line-height: 50px;
+        font-size: 2.5em;
+        text-align: justify;
+        text-indent: 0px;
+    }
+    /* PROJETOS*/
+    .div_projetos{
+        margin-top: 115px;
+        width: 55%;
+    }
+    /* FOOTER */
+    .footer{
+        margin-top: 75px;
+        font-size: 1.5em;
+    }   
+}   
+
     
-} 
+    
+
 
