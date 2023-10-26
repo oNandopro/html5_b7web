@@ -54,6 +54,7 @@ body {
 }
 .decore_none{
     text-decoration: none;
+    color: #d816be;
     
 }
 .decore_none:hover{
@@ -146,21 +147,23 @@ main div p{
     text-shadow: 1px 1px 0px rgba(231, 238, 228, 0.932);
     border-radius: 40px;
 } 
-#h3_video_origens{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 30px;
-    text-align: center;
-    font-size: 2em;
-    background-color: rgba(29, 7, 7, 0.753);
-    text-shadow: 1px 1px 0px rgba(231, 238, 228, 0.932);
-    border-radius: 40px;
-}
 .video{
     width: 100%;
     max-width: 1200px;
     margin: auto;
+    text-align: center;
 }  
+#h3_video_origens{
+    display: inline-block;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    padding: 30px;
+    text-align: center;
+    font-size: 2em;
+    background-color: rgba(29, 7, 7, 0.925);
+    text-shadow: 1px 1px 0px rgba(231, 238, 228, 0.932);
+    border-radius: 40px;
+}
 .video_area{
     position: relative;
     height: 0px;
