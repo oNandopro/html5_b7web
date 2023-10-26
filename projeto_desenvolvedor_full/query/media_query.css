@@ -19,16 +19,18 @@ att: 09/08/2023
 @media print { 
     * {
         font-family: 'Courier New', Courier, monospace;
+        color: black;
     }
     main {
         border: 2px solid black;
     }
-
     main::after {
-        content: 'Essa impressão foi feita através dos site www.cursoemvideo.com';
+        text-align: center;
+        padding-left: 20px;
+        font-size: 0.8em;
+        content: 'Conteudo retirado de www.projetodesenvolvedorfull.com';
         text-decoration: overline;
     }
-    
 }
 
 /* Mobile devices max 319px (dispositivos móveis) - DIMENSIONS: GALAXY FOLD 280-663 */
