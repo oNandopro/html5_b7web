@@ -176,7 +176,7 @@ att: 09/08/2023
 }
 
 /* iPads, Tablets – 481px — 765px (tablets) - DIMENSIONS: SURFACE DUO 540-720*/
-@media screen and (min-width: 481px) and (max-width: 768px) { 
+@media screen and (min-width: 481px) and (max-width: 765px) { 
    *{
     letter-spacing: 3px;
    }
@@ -253,14 +253,82 @@ att: 09/08/2023
 }
 
 /* Small screens, laptops – 766px — 1025px (tela pequena) - DIMENSIONS: IPAD MINI 768-1024*/
-@media screen and (min-width: 769px) and (max-width: 1024px) { 
+@media screen and (min-width: 766px) and (max-width: 1024px) { 
     *{
-        letter-spacing: 4px;
+        letter-spacing: 3px;
     }
     /* CABEÇALHO */
+   h1 {
+    font-size: 5em;
+    }
+    .h2_header {
+        font-size: 3em;
+        margin-top: 30px;
+        margin-bottom: 35px;
+        letter-spacing: 3px;
+    }
+    nav {
+        font-size: 2em;
+        line-height: 50px;
+        letter-spacing: 1px;
+        margin-bottom: 55px;
+    }
+    span{
+        font-size: 3em;
+    }
+    .a_menu{
+        padding: 15px;
+        font-size: 1.8em;
+    }
     /* PARTE 1 */
+    .article1{
+        margin-top: 75px;
+        width: 80%;
+        padding: 20px;
+        line-height: 30px;
+    }
+    .p_article1{
+        margin-top: 30px;
+        font-size: 1.8em;
+        padding: 20px; 
+        line-height: 40px;
+    }
     /* CURSOS E ESPECIALIZAÇÕES */
-    
+    .article2{
+        width: 75%;
+        margin-top: 75px;
+    }
+    .h3 {
+        font-size: 2.5em;
+    }
+    .art_ul{
+        font-size: 1.8em;
+        line-height: 40px;
+    }
+    /* TABELA DE CONSULTA */
+    .div_consulta{
+        margin-top: 75px;
+        width: 80%;
+    }
+    .p_consulta{
+        margin-top: 35px;
+        margin-bottom: 35px;
+        padding: 10px;
+        line-height: 40px;
+        font-size: 1.8em;
+        text-align: justify;
+        text-indent: 0px;
+    }
+    /* PROJETOS*/
+    .div_projetos{
+        margin-top: 75px;
+        width: 75%;
+    }
+    /* FOOTER */
+    .footer{
+        margin-top: 75px;
+        font-size: 1.3em;
+    }   
 }
 
 /* Desktops, large screens – 1026px — 1200px (tela larga) - DIMENSIONS: IPAD AIR 1180-820 */
