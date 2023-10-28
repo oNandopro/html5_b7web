@@ -231,6 +231,16 @@ main div p{
     text-shadow: 1px 1px 0px rgba(231, 238, 228, 0.932);
     border-radius: 40px;
 }
+/* FOTOS */
+.fotos_area{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #d816be;
+}
+.fotos_imagens{
+
+}
 /* IMAGEM SID*/
 .imagem_sid{
     background-image: url(/projeto_desenvolvedor_full/imagens/nando_dj/sid_1.jpg);
