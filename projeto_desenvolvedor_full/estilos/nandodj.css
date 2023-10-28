@@ -54,7 +54,7 @@ body {
 }
 .decore_none{
     text-decoration: none;
-    color: #d816be;
+    color: rgb(252, 26, 10);
     
 }
 .decore_none:hover{
@@ -68,14 +68,13 @@ body {
     text-align: center;
     margin-top: 25px;
     font-size: 2em
-    
 }
 #voltar{
     background-color: none;
 }
 .h3_padrao{
     display: inline-block;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 50px;
     padding: 30px;
     text-align: center;
@@ -125,7 +124,7 @@ main div p{
     background-attachment: fixed;
     font-size: 2em;
     margin: auto;
-    margin-top: 350px;
+    margin-top: 150px;
     text-align: center;
     padding: 40px;
     width: 100%;
@@ -156,7 +155,7 @@ main div p{
 .imagem_origens{
     background-image: url(/projeto_desenvolvedor_full/imagens/nando_dj/origens_edit.png);
     background-position: center;
-    margin-top: 500px;
+    margin-top: 150px;
     background-size: cover;
     background-attachment: fixed;
     font-size: 2em;
@@ -209,6 +208,7 @@ main div p{
 #maker{
     margin-top: 30px;
     font-size: 1.5em;
+    text-align: left;
 }
 /* KODAMA IMAGEM */
 .imagem_kodama{
