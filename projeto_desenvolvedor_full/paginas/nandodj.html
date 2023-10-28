@@ -12,7 +12,7 @@
         <p class="p_header">bem vindo</p>
         <p>
             <a href="https://web.facebook.com/nandodjs00segue00la00no00instagram/?_rdc=1&_rdr" target="_blank">
-                <img src="/projeto_desenvolvedor_full/imagens/logos/facebook.jpg" alt="Facebook" class="logos">
+                <img src="/projeto_desenvolvedor_full/imagens/logos/facebook.jpg" alt="Facebook" class="logos" id="sociais">
             </a>
         <p>
             <a href="https://www.instagram.com/nandodjs" target="_blank">
@@ -33,13 +33,18 @@
             <h1>
                 Nando
             </h1>
-            <p>
+            <span href="#volta_menu" id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
                 dj
-            </p><br><br>
-            <p>
-                Dark - Hitech - DarkCore
-            </p>
-        
+            </span>
+    
+            <menu id="itens">
+                <ul>
+                    <li><a href="#" class="a_menu">Dark - Hitech - DarkCore</a></li>
+                    <li><a href="#p_looping" class="a_menu">História</a></li>
+                    <li><a href="#projetos" class="a_menu">Portifólio de Apresentações</a></li>
+                    <li><a href="#sociais" class="a_menu">Redes Sociais</a></li>
+                </ul>
+            </menu>  
         </div>
         <section class="imagem_looping"> <!-- LOOPING -->
             <p id="p_looping">
@@ -115,5 +120,14 @@
     <footer class="footer"> <!-- RODAPÉ -->
         <p>Art Dising by <a href="https://www.instagram.com/nandodjs/" target="_blank" class="a_onando">oNando</a></p>
    </footer>
+   <script>
+    function clickMenu() {
+        if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+        } else {
+            itens.style.display = 'block'
+        }
+    }
+</script>
 </body>
 </html>
