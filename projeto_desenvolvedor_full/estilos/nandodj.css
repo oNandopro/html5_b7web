@@ -92,11 +92,19 @@ header{
     background-position: center;
     background-attachment: scroll;
     color: rgb(70, 252, 10);
+    padding: 20px;
+}
+header p{
+    padding: 5px;
+    float: right;
 }
 .p_header{
-    margin: auto;
-    padding-top: 15px;
-    padding-left: 20px;
+    float: left;
+    
+}
+.logos{
+    width: 60px;
+    border-radius: 30px;
 }
 /* MAIN APRESENTAÇÃO*/
 .div_nando{
