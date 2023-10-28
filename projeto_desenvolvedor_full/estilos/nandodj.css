@@ -131,7 +131,7 @@ main div p{
     height: 500px;
 }
 #p_looping{
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: rgba(29, 7, 7, 0.678);
     display: inline-block;
     padding: 15px;
@@ -161,12 +161,13 @@ main div p{
     font-size: 2em;
     padding: 40px;
     width: 100%;
-    height: 100%;
+    height: 500px;
+    display: flex;
 }
 #p_origens{
     width: 45%;
-    height: 80%;
-    padding: 15px ;
+    height: auto;
+    padding: 55px ;
     background-color: rgba(29, 7, 7, 0.411);
     display: inline-block;
     text-shadow: 1px 1px 0px rgba(231, 238, 228, 0.932);
@@ -220,12 +221,13 @@ main div p{
     font-size: 2em;
     padding: 40px;
     width: 100%;
-    height: 100%;
+    height: 500px;
+    display: flex;
 }
 #p_kodama{
-    width: 45%;
-    height: 80%;
-    padding: 15px ;
+    width: 35%;
+    height: auto;
+    padding: 25px;
     background-color: rgba(29, 7, 7, 0.411);
     display: inline-block;
     text-shadow: 1px 1px 0px rgba(231, 238, 228, 0.932);
@@ -235,27 +237,31 @@ main div p{
 .fotos_area{
     display: flex;
     width: 100%;
-    height: 100%;
-    background-color: #d816be;
+    height: 250px;
+    margin-top: 150px;
+    padding: 40px;
+    background-color: rgba(122, 11, 11, 0.233);
 }
 .fotos_imagens{
-
+    text-align: center;
 }
 /* IMAGEM SID*/
 .imagem_sid{
     background-image: url(/projeto_desenvolvedor_full/imagens/nando_dj/sid_1.jpg);
     background-position: center;
-    margin-top: 500px;
+    margin-top: 150px;
     background-size: cover;
     background-attachment: fixed;
     font-size: 2em;
     padding: 40px;
     width: 100%;
-    height: 100%;
+    height: 500px;
+    display: flex;
 }
 #p_sid{
-    width: 45%;
-    height: 80%; 
+    width: 30%;
+    height: auto; 
+    padding: 25px;
     background-color: rgba(29, 7, 7, 0.411);
     text-shadow: 1px 1px 0px rgba(231, 238, 228, 0.932);
     border-radius: 40px;
