@@ -14,15 +14,15 @@
         <div class="div_vis"> <!-- PARA FORMULÁRIO DE REGISTRO DE VISITANTE E CADASTRO-->
             <form action="/projeto_desenvolvedor_full/paginas/front.html" method="get" enctype="multipart/form-data">
                 
-                <fieldset>
+                <fieldset> <!-- DADOS PESSOAIS -->
                     <legend>DADOS PESSOAIS</legend>
                     <label>
                         Nome Completo: <br>
-                        <input type="text" name="usuario" value="" class="caixa" required minlength="3">
+                        <input type="text" name="usuario" value="" class="caixa" required minlength="3" placeholder="Digite Nome">
                     </label>
                     <label>
                          e-mail: <br>
-                        <input type="email" name="email" id="" class="caixa" required
+                        <input type="email" name="email" id="" class="caixa" required placeholder="Digite e-mail"
                         pattern="(^[a-zA-Z0-9_.+-]=@[a-zA-Z0-9-]=\.[a-zA-Z0-9-.]=$)" title="endereço de e-mail"> 
                         <!-- EXPRESSÃO REGULAR QUE VÁLIDA UM EMAIL-->
                     </label>
@@ -53,7 +53,7 @@
                         <input type="radio" name="sexo"> Feminino
                     </label>
                 </fieldset>
-                <fieldset>
+                <fieldset> <!-- DADOS PROFISSIONAIS -->
                     <legend>DADOS PROFISSIONAIS</legend>
                     <label>
                         Qual sua Profissão atual? <br>
@@ -66,7 +66,7 @@
                     </label>
                 </fieldset>
 
-                <fieldset>
+                <fieldset> <!-- CONSIDERAÇÕES FINAIS -->
                     <legend>CONSIDERAÇÕES FINAIS</legend>
                     <label for="txt">
                         Deixe aqui seu feed-back, criticas e sujestões:
@@ -83,7 +83,7 @@
                     </label>
                 </fieldset>
 
-                <div id="div_botao">
+                <div id="div_botao"> <!-- BOTÃO ENVIAR -->
                     <input type="submit" value="ENVIAR CADASTRO" name="enviar" id="i_enviar" class="f_pink"/>
                 </div>
                 
