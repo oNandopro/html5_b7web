@@ -4,13 +4,14 @@
 @keyframes muda_cor {
     0% {background-color: var(--bgfundo);}
     5% {background-color: yellowgreen;}
+    15%{background-color: var(--colorgreen);}
     25%{background-color: var(--colorblue);}
     35% {background-color: tomato;}
     50%{background-color: var(--colorpinkpadrao);}
     60%{background-color: turquoise;}
     75%{background-color: var(--colorgreen);}
     85%{background-color: slateblue;}
-    100%{background-color: var(--bgfundo);}
+    100%{background-color: darkgreen;}
 }
 :root {
     --colorpinkpadrao: #d816be;
@@ -125,7 +126,7 @@ span{
 
 menu {
     display: none;
-    font-size: .9em;
+    font-size: .7em;
 }
 
 menu > ul {
@@ -245,7 +246,7 @@ td:hover{
     background-color: var(--bgfundo);
     display: flex;
     animation-name: muda_cor;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
 }
