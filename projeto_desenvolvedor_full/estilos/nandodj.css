@@ -125,7 +125,7 @@ main div p{
     margin-top: 150px;
     text-shadow: 1px 1px 0px rgba(231, 238, 228, 0.932);
 }
-/* MENU COM JAVA */
+/* MENU COM JAVASCRIPT */
 span{
     font-size: 2em;  
     text-shadow: 1px 1px 0px rgba(231, 238, 228, 0.932);
@@ -139,6 +139,7 @@ span{
 
 }
 #burguer:hover {
+    font-size: 2.2em;
     background-color: var(--bgfundo);
     color: white;
 }
@@ -177,7 +178,7 @@ menu > ul > li > a:hover {
     background-attachment: fixed;
     font-size: 2em;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 120px;
     text-align: center;
     padding: 40px;
     width: 100%;
@@ -288,15 +289,14 @@ menu > ul > li > a:hover {
 }
 /* FOTOS */
 .fotos_area{
-    display: flex;
     width: 100%;
     height: 250px;
     margin-top: 150px;
-    padding: 40px;
+    padding: 10px;
     background-color: rgba(122, 11, 11, 0.233);
 }
 .fotos_imagens{
-    text-align: center;
+    text-align: left;
 }
 /* IMAGEM SID*/
 .imagem_sid{
