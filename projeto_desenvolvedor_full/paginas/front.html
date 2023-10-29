@@ -68,33 +68,42 @@
                 </p>       
             </article>
             <article class="article2" id="cursos"> <!-- CURSOS E ESPECIALIZAÇÕES -->
-                <h3 class="h3">Cursos e Especializações</h3>
-                <p class="p_center">
-                    (click para Certificados)
-                </p>
-                <ul class="art_ul"> <!-- LISTA DE CURSOS-->
-                    <li>
-                        <a href="https://www.estudonauta.com/aluno/fernando-vieira/" target="_blank" class="f_blue">
-                            HTML
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.estudonauta.com/aluno/fernando-vieira/" target="_blank" class="f_blue">
-                            CSS
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.estudonauta.com/aluno/fernando-vieira/" target="_blank" class="f_blue">
-                            Lógica de Programação
-                        </a>
-                    </li>                           
-                    <li>
-                        <a href="https://www.estudonauta.com/validacao-de-certificado/?codigo_certificado=2267-B56F-6" target="_blank" class="f_blue">
-                        JavaScript</a>
-                    </li>
-                </ul>
-                <p class="p_article1"><a href="" id="volta_menu" class="decore_none">🔄</a>
-                </p> 
+                <dl> <!-- SEMÂNTICA PARA LISTA DE DEFINIÇÃO-->
+                    <dt> <!-- SEMÂNTICA PARA TERMO DA LISTA-->
+                        <h3 class="h3">
+                            Cursos e Especializações
+                        </h3>
+                        <p class="p_center">
+                            (click para Certificados)
+                        </p>
+                    </dt>
+                    <dd> <!-- SEMÂNTICA PARA DESCRIÇÃO DA LISTA-->
+                        <ul class="art_ul"> <!-- LISTA DE CURSOS-->
+                            <li>
+                                <a href="https://www.estudonauta.com/aluno/fernando-vieira/" target="_blank" class="f_blue">
+                                    HTML
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.estudonauta.com/aluno/fernando-vieira/" target="_blank" class="f_blue">
+                                    CSS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.estudonauta.com/aluno/fernando-vieira/" target="_blank" class="f_blue">
+                                    Lógica de Programação
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.estudonauta.com/validacao-de-certificado/?codigo_certificado=2267-B56F-6" target="_blank" class="f_blue">
+                                    JavaScript
+                                </a>
+                            </li>
+                        </ul>
+                    </dd>
+                    <p class="p_article1"><a href="" id="volta_menu" class="decore_none">🔄</a>
+                    </p>
+                </dl>
             </article>
             <div class="div_consulta" id="consulta"> <!-- TABELA DE CONSULTA -->
                 <h3 class="h3">Tabela de Consulta </h3>
@@ -177,7 +186,14 @@
         </section>
    </main>
    <footer class="footer"> <!-- RODAPÉ -->
-        <p>Art Dising by <a href="https://www.instagram.com/nandodjs/" target="_blank" class="a_onando">oNando</a></p>
+        <address>
+            <p>
+            Art Dising by 
+                <a href="https://www.instagram.com/nandodjs/" target="_blank" class="a_onando">
+                    oNando
+                </a>
+            </p>
+        </address>
    </footer>
    <script> 
     function clickMenu() {

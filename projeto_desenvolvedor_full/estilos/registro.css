@@ -109,6 +109,7 @@ textarea{
     text-align: center;
     background-color: rgba(29, 2, 2, 0.959);
     border-radius: 15px;
+    transition: all .5s linear;
 }
 #i_enviar:hover{
     background-color: black;

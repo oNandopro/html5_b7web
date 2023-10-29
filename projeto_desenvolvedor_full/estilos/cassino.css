@@ -7,6 +7,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    word-wrap: break-word; /* PARA QUEBRAR A PALAVRA DO TEXTO PARA MANTER NO ESPAÇO DO ELEMENTO */
 }
 body {
     width: 100wh;

@@ -85,6 +85,24 @@ body {
 .a_header:hover{
     color: #d816be;
 }
+/* SECTION */
+section {
+    width: 300px;
+    height: 800px;
+    background-color: #d816be;
+}
+/* ASIDE */
+aside {
+    width: 100px;
+    height: 400px;
+    background-color: yellow;
+}
+/* MAIN */
+main {
+    width: 500px;
+    height: 200px;
+    background-color: aquamarine;
+}
 /* FOOTER */
 .footer{
     text-align: center;
