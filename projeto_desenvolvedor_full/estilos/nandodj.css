@@ -92,7 +92,13 @@ header{
     background-position: center;
     background-attachment: scroll;
     color: rgb(70, 252, 10);
-    padding: 20px;
+}
+.container_bem_vindo {
+    
+    background-color: aqua;
+    float: left;
+    display: flex;
+    flex-direction: column;
 }
 header p{
     padding: 5px;
@@ -101,6 +107,14 @@ header p{
 .p_header{
     float: left;
     
+}
+.container_logos{
+    min-height: 100%;
+    margin-top: 50%;
+    margin-bottom: -50%;
+    margin: auto;
+    background-color: #d816be;
+    float: right;
 }
 .logos{
     width: 60px;
