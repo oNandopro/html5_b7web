@@ -13,6 +13,7 @@
     letter-spacing: 5px;
     word-spacing: 0px;
     word-wrap: break-word;
+    box-sizing: border-box;
 }
 body {
     width: 100wh;
@@ -92,36 +93,76 @@ header{
     background-position: center;
     background-attachment: scroll;
     color: rgb(70, 252, 10);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container_bem_vindo {
-    background-color: #d816be;
-    margin: 20px;
-    float: left;
+    
+    width: fit-content;
+    height: 100%;
+    padding: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: start;
 }
 .p_header{
-    background-color: aliceblue;
-    float: left;  
-    display: flex;
+   
+    width: fit-content;
+    height: fit-content;
+    
 }
+
+
+
+
+
 .container_logos{
-    background-color: aqua;
-    float: right;
+    
+    width: fit-content;
+    height: 100%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: end;
+    align-items: center;
 }
 .div_logos {
-    background-color: blue;
-    margin: 10px;
-   
+    
+    display: flex;
+    width: fit-content;
+    height: 100%;
+    align-items: center;
 }
 .logos{
-   background-color: #d816be;
-   margin: 50px;
+    width: 70px;
+    border-radius: 50px;
 }
-img {
-   width: 33.33%;
-   padding: 15px;
-}
+
+
+
+
+
+
+
+
+
+
+
 /* MAIN APRESENTAÇÃO*/
 .art_nando{
     margin-top: 100px;
