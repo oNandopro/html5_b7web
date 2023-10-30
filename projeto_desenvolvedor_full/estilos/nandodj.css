@@ -94,31 +94,33 @@ header{
     color: rgb(70, 252, 10);
 }
 .container_bem_vindo {
-    
-    background-color: aqua;
+    background-color: #d816be;
+    margin: 20px;
     float: left;
     display: flex;
     flex-direction: column;
 }
-header p{
-    padding: 5px;
-    float: right;
-}
 .p_header{
-    float: left;
-    
+    background-color: aliceblue;
+    float: left;  
+    display: flex;
 }
 .container_logos{
-    min-height: 100%;
-    margin-top: 50%;
-    margin-bottom: -50%;
-    margin: auto;
-    background-color: #d816be;
+    background-color: aqua;
     float: right;
 }
+.div_logos {
+    background-color: blue;
+    margin: 10px;
+   
+}
 .logos{
-    width: 60px;
-    border-radius: 30px;
+   background-color: #d816be;
+   margin: 50px;
+}
+img {
+   width: 33.33%;
+   padding: 15px;
 }
 /* MAIN APRESENTAÇÃO*/
 .art_nando{
