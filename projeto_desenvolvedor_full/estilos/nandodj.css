@@ -97,21 +97,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container_bem_vindo {
-    
     width: fit-content;
     height: 100%;
     padding: 20px;
@@ -120,29 +106,20 @@ header{
     justify-content: start;
 }
 .p_header{
-   
     width: fit-content;
-    height: fit-content;
-    
+    height: fit-content; 
 }
-
-
-
-
-
 .container_logos{
-    
     width: fit-content;
     height: 100%;
-    margin-right: 3%;
+    margin-right: 2%;
     display: flex;
     flex-direction: column;
     margin-left: 50px;
     justify-content: end;
     align-items: center;
 }
-.div_logos {
-    
+.div_logos {  
     display: flex;
     width: fit-content;
     height: 100%;
@@ -152,17 +129,6 @@ header{
     width: 70px;
     border-radius: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
 /* MAIN APRESENTAÇÃO*/
 .art_nando{
     margin-top: 100px;
