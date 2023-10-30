@@ -55,6 +55,12 @@ body {
     border: 2px solid black;
 }
 /* RODAPÉ */
+footer {
+    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
 .sec_nav_footer {
     border: 2px solid black;
 }
@@ -63,7 +69,7 @@ body {
 }
 footer .a_onando{
     text-decoration: none;
-    color: var(--colorpinkpadrao);
+    color: #d816be;
 }
 footer .a_onando:hover{
     color: white;
