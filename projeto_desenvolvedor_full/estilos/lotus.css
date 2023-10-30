@@ -8,11 +8,24 @@
     word-wrap: break-word; /* PARA QUEBRAR A PALAVRA DO TEXTO PARA MANTER NO ESPAÇO DO ELEMENTO */
 }
 body {
+    background-color: lemonchiffon;
     width: 100wh;
     height: 100vh;
     margin: 0px;
+    padding: 0px;
 }
 /* CABEÇALHO */
+header {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 900px;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
 .div_logo {
     border: 2px solid black;
 }
