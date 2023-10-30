@@ -1,0 +1,73 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    word-wrap: break-word; /* PARA QUEBRAR A PALAVRA DO TEXTO PARA MANTER NO ESPAÇO DO ELEMENTO */
+}
+body {
+    width: 100wh;
+    height: 100vh;
+    margin: 0px;
+}
+/* CABEÇALHO */
+.div_logo {
+    border: 2px solid black;
+}
+.sec_nav_header {
+    border: 2px solid black;
+}
+.nav_header {
+    border: 2px solid black;
+}
+/* BANNER */
+.sec_banner {
+    border: 2px solid black;
+}
+.sec_div1 {
+    border: 2px solid black;
+}
+.sec_div2 {
+    border: 2px solid black;
+}
+.sec_div3 {
+    border: 2px solid black;
+}
+/* MAIN */
+.main {
+    border: 2px solid black;
+}
+.main_sec1 {
+    border: 2px solid black;
+}
+.sec_art {
+    border: 2px solid black;
+}
+.aside_img {
+    border: 2px solid black;
+}
+.main_sec2 {
+    border: 2px solid black;
+}
+.aside_foto {
+    border: 2px solid black;
+}
+/* RODAPÉ */
+.sec_nav_footer {
+    border: 2px solid black;
+}
+.nav_footer {
+    border: 2px solid black;
+}
+footer .a_onando{
+    text-decoration: none;
+    color: var(--colorpinkpadrao);
+}
+footer .a_onando:hover{
+    color: white;
+}
+/*  */
+/*  */
+/*  */
