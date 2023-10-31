@@ -195,7 +195,7 @@ menu > ul > li > a:hover {
 }
 /* FOTO APRESENTAÇÃO */
 .container_foto {
-    margin-top: 100px;
+    margin-top: 190px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -386,7 +386,7 @@ menu > ul > li > a:hover {
     margin: auto;
     margin-top: 300px;
     padding: 3%;
-    background-color: rgba(29, 7, 7, 0.781);
+    background-color: rgba(29, 7, 7, 0.747);
     text-shadow: 1px 1px 0px rgba(231, 238, 228, 0.932);
     border-radius: 40px;
     width: 80%;
