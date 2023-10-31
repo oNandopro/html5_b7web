@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: center;
     height: 120px;
-    background-image: linear-gradient(to left top, rgb(255, 192, 203), #58c8f4 60%);
+    background-image: linear-gradient(to left top, rgb(252, 226, 230), #58c8f4 60%);
 }
 .container {
     width: 900px;
@@ -57,7 +57,7 @@ nav a:hover {
 }
 /* BANNER */
 .sec_banner {
-    background-color: rgb(255, 192, 203);
+    background-color: rgb(252, 226, 230);
     background-image: url(/projeto_desenvolvedor_full/imagens/imag_lotus/foto_banner_ok.png);
     background-repeat: no-repeat;
     background-position: right;
