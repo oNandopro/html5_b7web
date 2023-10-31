@@ -209,6 +209,9 @@ menu > ul > li > a:hover {
      width: 800px;
      border-radius: 50px;
  }
+ #tribes {
+    text-align: center;
+ }
  #h3_historia {
      margin-top: 200px;
      margin-left: 5%;   
@@ -304,7 +307,7 @@ menu > ul > li > a:hover {
     height: 100%;
     border: 0px;
 }
-#maker{
+.citacao{
     margin-top: 30px;
     font-size: 1.5em;
     text-align: left;
@@ -383,7 +386,7 @@ menu > ul > li > a:hover {
     text-align: center;
     height: 50px;
     margin-top: 300px;
-    color: white;
+    color: rgb(252, 26, 10);
 }
 footer .a_onando{
     text-decoration: none;
