@@ -70,7 +70,8 @@ nav a:hover {
     background-image: url(/projeto_desenvolvedor_full/imagens/imag_lotus/foto_banner_ok.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 670px;
+    background-size: contain;
+    height: 770px;
 }
 .column {
     display: flex;
@@ -107,7 +108,7 @@ nav a:hover {
 .sec_div2 {
     display: flex;
     align-items: end;
-    height: 210px;
+    height: 260px;
     width: 60%;
 }
 .banner1,
@@ -121,9 +122,8 @@ nav a:hover {
 }
 .banner1 {
     background-color: #a3e4fd;
-    color: #727272;
-    
-    font-size: 1.1em;
+    color: #525151;
+    font-size: 1.2em;
 }
 .banner1 p {
     padding: 25px;
@@ -132,15 +132,34 @@ nav a:hover {
 }
 .banner2 {
     background-color: #a3e4fd;
-    
+    color: #525151;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 1.2em;
 }
-.banner2 li {
+.banner2 h3 {
+    margin-top: 25px;
+    padding-left: 15px;
+}
+.banner2 dd {
+    margin-top: 15px;
+}
+.banner2 dl,li {
     list-style-position: inside;
+    list-style-type: circle;
+    line-height: 30px;
+    padding-left: 15px;
 }
 .banner3{
     background-color: #a3e4fd;
 }
-
+.banner3 table {
+    color: #525151;
+    padding: 25px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 1em;
+}
 /* MAIN */
 .main {
     border: 2px solid black;
