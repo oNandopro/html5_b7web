@@ -29,7 +29,8 @@ header {
     background-image: linear-gradient(to left top, rgb(252, 226, 230), #58c8f4 60%);
 }
 .container {
-    width: 900px;
+    background-color: #525151;
+    width: 1027px;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -63,34 +64,25 @@ nav a:hover {
     color: #ffffff;
 }
 /* BANNER */
-.sec_banner {
+#sec_banner {
     display: flex;
-    justify-content: start;
     background-color: rgb(252, 226, 230);
     background-image: url(/projeto_desenvolvedor_full/imagens/imag_lotus/foto_banner_ok.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     background-size: contain;
     height: 770px;
-}
-.column {
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 .sec_div_parte1 {
-    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: left;
     margin-left: 90px;
     padding: 0;
-    width: fit-content;
+    width: 900px;
 }
 .sec_div_parte1 h2 {
-    /*font-family: 'agbalumo', Arial, Helvetica, sans-serif;*/
-    /* font-family: 'Dancing Script', cursive;*/
     font-family: 'Montez', cursive;
-    /*font-family: 'Satisfy', cursive; */
     margin-top: 100px;
     padding-left: 80px;
     color: #727272;
@@ -102,16 +94,20 @@ nav a:hover {
     font-weight: bolder;
     margin-top: 50px;
     color:  #39aae1;;
-    font-size: 140px;
+    font-size: 125px;
     text-shadow: 2px 2px 5px white;
 }
 .sec_div2 {
+    background-color: #fafd3c;
     display: flex;
+    justify-content: left;
+    flex-direction: row;
     align-items: end;
     height: 260px;
-    width: 60%;
+    width: inherit;
+    padding: 0;
 }
-.banner1,
+/*.banner1,
 .banner2,
 .banner3 {
     flex: 1;
@@ -121,17 +117,17 @@ nav a:hover {
     
 }
 .banner1 {
-    background-color: #a3e4fd;
+    background-color: #1bbdfd;
     color: #525151;
     font-size: 1.2em;
 }
 .banner1 p {
     padding: 25px;
     letter-spacing: 1px;
-    line-height: 25px;
+    line-height: 27px;
 }
 .banner2 {
-    background-color: #a3e4fd;
+    background-color: #73d7ff;
     color: #525151;
     letter-spacing: 1px;
     line-height: 25px;
@@ -151,33 +147,34 @@ nav a:hover {
     padding-left: 15px;
 }
 .banner3{
-    background-color: #a3e4fd;
-}
+    /*background-color: #b2e7fc;*/
+}*/
 .banner3 table {
     color: #525151;
     padding: 25px;
-    letter-spacing: 1px;
     line-height: 25px;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 /* MAIN */
 .main {
-    border: 2px solid black;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
 }
 .main_sec1 {
-    border: 2px solid black;
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: flex;
+    flex: 2;
+    width: 60%;
+    margin-left: 90px;
+    height: 500px;
 }
-.sec_art {
-    border: 2px solid black;
-}
-.aside_img {
-    border: 2px solid black;
-}
-.main_sec2 {
-    border: 2px solid black;
-}
-.aside_foto {
-    border: 2px solid black;
+.main_aside2 {
+    background-color: burlywood;
+    border: 1px solid black;
+    display: flex;
+    flex: 1;
 }
 /* RODAPÉ */
 footer {
