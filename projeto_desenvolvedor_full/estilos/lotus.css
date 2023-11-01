@@ -25,11 +25,11 @@ body {
 header {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 120px;
     background-image: linear-gradient(to left top, rgb(252, 226, 230), #58c8f4 60%);
 }
 .container {
-    background-color: #525151;
     width: 1027px;
     height: 100px;
     display: flex;
@@ -65,54 +65,51 @@ nav a:hover {
 }
 /* BANNER */
 #sec_banner {
-    display: flex;
     background-color: rgb(252, 226, 230);
     background-image: url(/projeto_desenvolvedor_full/imagens/imag_lotus/foto_banner_ok.png);
-    background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    height: 770px;
+    background-size: cover;
+    height: 670px;
+    display: flex;
     justify-content: center;
 }
-.sec_div_parte1 {
+.column {
+    flex-direction: column;
+    height: 100%;
+}
+.banner_texto {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    margin-left: 90px;
-    padding: 0;
-    width: 900px;
+    background-color: #d816be;
+    
 }
-.sec_div_parte1 h2 {
+.banner_texto h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     font-family: 'Montez', cursive;
-    margin-top: 100px;
-    padding-left: 80px;
     color: #727272;
     font-size: 50px;
     text-shadow: 2px 2px 5px white;
 }
-.sec_div_parte1 h1 {
+.banner_texto h1 {
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
-    margin-top: 50px;
     color:  #39aae1;;
-    font-size: 125px;
+    font-size: 50px;
     text-shadow: 2px 2px 5px white;
 }
-.sec_div2 {
-    background-color: #fafd3c;
-    display: flex;
-    justify-content: left;
-    flex-direction: row;
-    align-items: end;
-    height: 260px;
-    width: inherit;
-    padding: 0;
+.banner_divs {
+   background-color: chartreuse;
+    height: 210px;
 }
 /*.banner1,
 .banner2,
 .banner3 {
     flex: 1;
     height: 100%;
-    margin-left: 90px;
     box-shadow: 5px 2px 4px #72727277;
     
 }
@@ -134,7 +131,7 @@ nav a:hover {
     font-size: 1.2em;
 }
 .banner2 h3 {
-    margin-top: 25px;
+    margi
     padding-left: 15px;
 }
 .banner2 dd {
@@ -147,14 +144,14 @@ nav a:hover {
     padding-left: 15px;
 }
 .banner3{
-    /*background-color: #b2e7fc;*/
-}*/
+    /*background-color: #b2e7fc;
+}
 .banner3 table {
     color: #525151;
     padding: 25px;
     line-height: 25px;
     font-size: 1.2em;
-}
+}*/
 /* MAIN */
 .main {
     display: flex;
