@@ -26,7 +26,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120px;
+    height: 90px;
     background-image: linear-gradient(to left top, rgb(252, 226, 230), #58c8f4 60%);
 }
 .container {
@@ -81,7 +81,7 @@ nav a:hover {
     flex: 1;
     display: flex;
     flex-direction: column;
-    background-color: #d816be;
+    justify-content: center;
     
 }
 .banner_texto h2 {
@@ -91,67 +91,70 @@ nav a:hover {
 
     font-family: 'Montez', cursive;
     color: #727272;
-    font-size: 50px;
+    font-size: 40px;
     text-shadow: 2px 2px 5px white;
+    max-width: 350px;
 }
 .banner_texto h1 {
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
     color:  #39aae1;;
-    font-size: 50px;
+    font-size: 70px;
     text-shadow: 2px 2px 5px white;
+    margin-top: 20px;
+    max-width: 350px;
 }
 .banner_divs {
-   background-color: chartreuse;
     height: 210px;
+    display: flex;
 }
-/*.banner1,
+.banner1,
 .banner2,
 .banner3 {
     flex: 1;
-    height: 100%;
-    box-shadow: 5px 2px 4px #72727277;
-    
+    padding: 20px;
 }
 .banner1 {
     background-color: #1bbdfd;
-    color: #525151;
-    font-size: 1.2em;
 }
-.banner1 p {
+.banner1_p {
+    color: #525151;
+    font-size: 1em;
     padding: 25px;
     letter-spacing: 1px;
-    line-height: 27px;
+    line-height: 20px;
 }
 .banner2 {
     background-color: #73d7ff;
+}
+.banner2_lista {
     color: #525151;
     letter-spacing: 1px;
-    line-height: 25px;
-    font-size: 1.2em;
-}
-.banner2 h3 {
-    margi
-    padding-left: 15px;
+    font-size: 1em;
+    letter-spacing: 1px;
 }
 .banner2 dd {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .banner2 dl,li {
     list-style-position: inside;
     list-style-type: circle;
-    line-height: 30px;
-    padding-left: 15px;
+    line-height: 28px;
 }
 .banner3{
-    /*background-color: #b2e7fc;
+    background-color: #b2e7fc;
 }
-.banner3 table {
+.banner3_horarios {
     color: #525151;
-    padding: 25px;
-    line-height: 25px;
-    font-size: 1.2em;
-}*/
+    font-size: 1em;
+    margin-top: 13px;
+}
+.dia {
+    width: 60%;
+}
+.banner_title {
+    font-size: 21px;
+}
 /* MAIN */
 .main {
     display: flex;
