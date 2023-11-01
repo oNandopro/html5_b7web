@@ -202,6 +202,7 @@ menu > ul > li > a:hover {
     font-size: 2em;
 }
 .tab_consulta{
+    table-layout: fixed;
     margin: auto;
     width: 90%;
     height: auto;
@@ -211,6 +212,7 @@ menu > ul > li > a:hover {
 }
 thead, tbody, th, td{
     border: 1px solid white ;
+    cursor: pointer;
 } 
 th{
     height: 50px;
