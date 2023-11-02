@@ -224,8 +224,6 @@ article {
     margin-bottom: 30px;
 }
 .main_aside2 {
-    background-color: burlywood;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     flex: 1;
