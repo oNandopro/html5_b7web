@@ -74,7 +74,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
 }
-.column {
+.column_banner {
     flex-direction: column;
     height: 100%;
 }
@@ -163,6 +163,10 @@ nav a:hover {
     display: flex;
     justify-content: center;
 }
+.column_main {
+    flex-direction: row;
+    height: 100%;
+}
 .main_sec1 {
     background-color: aquamarine;
     border: 1px solid black;
@@ -179,6 +183,7 @@ nav a:hover {
 }
 .widget {
     display: flex;
+    flex-direction: column;
 }
 .widget_title {
     margin-top: 30px;
@@ -188,7 +193,7 @@ nav a:hover {
     font-weight: bold;
 }
 .widget_title_txt {
-
+    color: #525151;
 }
 .widget_title_bar {
     margin-top: 10px;
@@ -196,6 +201,16 @@ nav a:hover {
     height: 2px;
     background-color:  #58c8f4;
 }
+.div_img_especialidades {
+    margin-top: 30px;
+}.img_especialidades {
+    width: 100%;
+    height: auto;
+}
+.title_especialidades {
+
+}
+
 /* RODAPÉ */
 footer {
     border: 2px solid black;
