@@ -20,6 +20,7 @@ body {
     height: 100vh;
     margin: 0px;
     padding: 0px;
+    padding-bottom: 300px;
 }
 /* CABEÇALHO */
 header {
@@ -153,35 +154,54 @@ nav a:hover {
     width: 60%;
 }
 .banner_title {
+    color: #525151;
     font-size: 21px;
+    font-weight: bold;
 }
 /* MAIN */
 .main {
     display: flex;
-    justify-content: start;
-    flex-direction: row;
+    justify-content: center;
 }
 .main_sec1 {
     background-color: aquamarine;
     border: 1px solid black;
     display: flex;
     flex: 2;
-    width: 60%;
-    margin-left: 90px;
-    height: 500px;
+    
 }
 .main_aside2 {
     background-color: burlywood;
     border: 1px solid black;
     display: flex;
+    flex-direction: column;
     flex: 1;
+}
+.widget {
+    display: flex;
+}
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #525151;
+    font-size: 21px;
+    font-weight: bold;
+}
+.widget_title_txt {
+
+}
+.widget_title_bar {
+    margin-top: 10px;
+    width: 40px;
+    height: 2px;
+    background-color:  #58c8f4;
 }
 /* RODAPÉ */
 footer {
     border: 2px solid black;
     width: 100%;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 250px;
 }
 .sec_nav_footer {
     border: 2px solid black;
