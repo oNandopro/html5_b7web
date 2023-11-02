@@ -248,12 +248,6 @@ footer {
 footer p {
     font-family: "AudioWide", cursive;
 }
-.sec_nav_footer {
-    border: 2px solid black;
-}
-.nav_footer {
-    border: 2px solid black;
-}
 footer .a_onando{
     text-decoration: none;
     color: #d816be;
