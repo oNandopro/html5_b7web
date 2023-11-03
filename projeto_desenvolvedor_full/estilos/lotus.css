@@ -92,17 +92,17 @@ nav a:hover {
     justify-content: center;
 
     font-family: 'Montez', cursive;
-    color: #727272;
+    color: rgb(17, 161, 161);
     font-size: 40px;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 5px;
     max-width: 350px;
 }
 .banner_texto h1 {
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
-    color:  #39aae1;;
+    color: rgb(255, 75, 172);
     font-size: 70px;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 5px rgb(17, 161, 161);
     margin-top: 20px;
     max-width: 350px;
 }
@@ -239,13 +239,49 @@ article {
 }
 /* RODAPÉ */
 footer {
-    background-color: black;
+    background-color: #1e1e1e;
     width: 100%;
     text-align: center;
-    height: 50px;
+    height: fit-content;
     color: white;
+
+    display: flex;
+    justify-content: center;
 }
-footer p {
+.flex_column {
+    flex-direction: column;
+    height: 100%;
+}
+.footer_menu {
+    display: flex;
+    flex-direction: row;
+}
+.fm_1 , .fm_2, .fm_3 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 20px;
+} 
+.fm_1 {
+    background-color: #1bbdfd;
+}
+.fm_2 {
+    background-color: #73d7ff;
+}
+.fm_3 {
+    background-color: #b2e7fc;
+}
+.footer_area {
+    display: flex;
+    flex-direction: row;
+}
+.footer_areaitem {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: 20px;
+}
+/*footer p {
     font-family: "AudioWide", cursive;
 }
 footer .a_onando{
