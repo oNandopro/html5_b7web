@@ -230,12 +230,20 @@ article {
     flex: 1;
     color: #525151;
 }
+.widget_title_maps {
+    margin-top: 30px;
+    margin-bottom: 20px; 
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .widget_maps {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
+    padding-top: 30px;
 }
 /* RODAPÉ */
 footer {
@@ -247,7 +255,6 @@ footer {
 
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 .flex_column {
     flex-direction: column;
@@ -280,17 +287,17 @@ footer {
     display: flex;
     flex-direction: row;
     flex: 1;
+    background-color: #1bbdfd;
 }
 /* FOOTER COPY */
 .footer_copy {
-    width: 100%;
-    background-image: linear-gradient(to right bottom, black, #58c8f4 90%);
     display: flex;
+    justify-content: center;
 }
 footer p{
     font-family: "AudioWide", cursive;
+    letter-spacing: 2px;
     padding: 20PX;
-    letter-spacing: 1px;
 }
 footer .a_onando{
     font-family: "AudioWide", cursive;
