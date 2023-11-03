@@ -21,7 +21,6 @@ body {
     height: 100vh;
     margin: 0px;
     padding: 0px;
-    padding-bottom: 300px;
 }
 /* CABEÇALHO */
 header {
@@ -160,7 +159,7 @@ nav a:hover {
     font-weight: bold;
 }
 /* MAIN */
-.main {
+.geral {
     background-image: linear-gradient(to top, rgb(247, 231, 234) 99%, #c9effd5b);
     display: flex;
     justify-content: center;
@@ -169,7 +168,7 @@ nav a:hover {
     flex-direction: row;
     height: 100%;
 }
-.main_sec1 {
+.main_sec1 {                        /* SECTION 1 */
     display: flex;
     flex-direction: column;
     flex: 2;
@@ -197,17 +196,11 @@ nav a:hover {
 .widget_body {
     display: flex;
     margin-top: 30px;
-    padding-right: 30px;
     color: white;
     text-align:left;
     letter-spacing: 1px;
     line-height: 30px;
     font-weight: lighter;
-}
-.wid_p {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
-    font-size: .7em;
 }
 .flex {
     display: flex;
@@ -218,15 +211,13 @@ article {
     min-width: 300px;
     margin-right: 20px;
 }
-.div_img_especialidades {
-    margin-top: 30px;
-}.img_especialidades {
+.img_especialidades {
     width: 100%;
     height: auto;
 }
 .title_especialidades {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     color: #525151;
     font-size: 21px;
     font-weight: bold;
@@ -237,18 +228,13 @@ article {
     text-align: justify;
     letter-spacing: 1px;
     line-height: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
-.main_aside2 {
+.main_aside2 {                   /* ASIDE 2 */
     display: flex;
     flex-direction: column;
     flex: 1;
     color: #525151;
-}
-.widget_maps {
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
 }
 /* RODAPÉ */
 footer {
@@ -294,15 +280,38 @@ footer {
     flex: 1;
     width: 100%;
 }
+.logo_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: end;
+}
+.img_logo {
+    margin-top: 220px;
+}
+.wid_p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    font-size: .7em;
+    margin-right: 20px;
+}
+.widget_maps {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
 /* FOOTER COPY */
 .footer_copy {
     display: flex;
     justify-content: center;
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 60px;
 }
 footer p{
     font-family: "AudioWide", cursive;
     letter-spacing: 2px;
-    padding: 20PX;
 }
 footer .a_onando{
     font-family: "AudioWide", cursive;
