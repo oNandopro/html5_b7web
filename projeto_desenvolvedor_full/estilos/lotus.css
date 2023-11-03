@@ -173,7 +173,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     flex: 2;
-    
+    color: #525151;
 }
 .widget {
     display: flex;
@@ -181,19 +181,18 @@ nav a:hover {
 }
 .widget_title {
     margin-top: 30px;
-    margin-bottom: 20px;
-    color: #525151;
+    margin-bottom: 20px; 
     font-size: 25px;
     font-weight: bold;
-}
-.widget_title_txt {
-    color: #525151;
 }
 .widget_title_bar {
     margin-top: 10px;
     width: 50px;
     height: 2px;
     background-color:  #58c8f4;
+}
+.widget_body {
+    display: flex;
 }
 .flex {
     display: flex;
@@ -229,6 +228,7 @@ article {
     display: flex;
     flex-direction: column;
     flex: 1;
+    color: #525151;
 }
 .widget_maps {
     display: flex;
@@ -247,6 +247,7 @@ footer {
 
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 .flex_column {
     flex-direction: column;
@@ -279,18 +280,26 @@ footer {
     display: flex;
     flex-direction: row;
     flex: 1;
-    padding: 20px;
 }
-/*footer p {
+/* FOOTER COPY */
+.footer_copy {
+    width: 100%;
+    background-image: linear-gradient(to right bottom, black, #58c8f4 90%);
+    display: flex;
+}
+footer p{
     font-family: "AudioWide", cursive;
+    padding: 20PX;
+    letter-spacing: 1px;
 }
 footer .a_onando{
+    font-family: "AudioWide", cursive;
     text-decoration: none;
     color: #d816be;
 }
 footer .a_onando:hover{
     color: white;
 }
-/*  */
+
 /*  */
 /*  */
