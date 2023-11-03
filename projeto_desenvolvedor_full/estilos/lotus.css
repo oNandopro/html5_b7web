@@ -185,6 +185,9 @@ nav a:hover {
     font-size: 25px;
     font-weight: bold;
 }
+.widget_title_txt {
+    text-align: left;
+}
 .widget_title_bar {
     margin-top: 10px;
     width: 50px;
@@ -193,6 +196,18 @@ nav a:hover {
 }
 .widget_body {
     display: flex;
+    margin-top: 30px;
+    padding-right: 30px;
+    color: white;
+    text-align:left;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+.wid_p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    font-size: .7em;
 }
 .flex {
     display: flex;
@@ -230,19 +245,9 @@ article {
     flex: 1;
     color: #525151;
 }
-.widget_title_maps {
-    margin-top: 30px;
-    margin-bottom: 20px; 
-    font-size: 25px;
-    font-weight: bold;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 .widget_maps {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     padding-top: 30px;
 }
 /* RODAPÉ */
@@ -285,9 +290,9 @@ footer {
 }
 .footer_areaitem {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: 1;
-    background-color: #1bbdfd;
+    width: 100%;
 }
 /* FOOTER COPY */
 .footer_copy {
