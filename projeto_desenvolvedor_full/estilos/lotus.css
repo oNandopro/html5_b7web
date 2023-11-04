@@ -28,7 +28,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 90px;
-    background-image: linear-gradient(to left top, rgb(252, 226, 230), #58c8f4 60%);
+    background-color: #58c8f4;
 }
 .container {
     width: 1027px;
@@ -52,15 +52,14 @@ nav li {
     list-style: none;
     display: inline-block;
 }
-.a_menu {
+nav a {
     display: inline-block;
-    padding: 15px;
+    padding: 10px;
     text-decoration: none;
-    text-transform: uppercase;
     color: #727272;
 }
 nav .active,
-nav .a_menu:hover {
+nav a:hover {
     background-color: #39aae1;
     color: #ffffff;
 } 
@@ -74,6 +73,15 @@ nav .a_menu:hover {
 }
 .dropdawn:hover .dropdawn_menu {
     display: block;
+    background-color:#58c8f4f1;
+}
+
+.widget_title_bar_menu {
+    display: block;
+    margin-top: 2px;
+    width: 40px;
+    height: 2px;
+    background-color: rgb(252, 226, 230);
 }
 /* BANNER */
 #sec_banner {
