@@ -80,7 +80,7 @@ nav a:hover {
     display: block;
     margin-top: 2px;
     width: 40px;
-    height: 2px;
+    height: 1px;
     background-color: rgb(252, 226, 230);
 }
 /* BANNER */
@@ -135,7 +135,7 @@ nav a:hover {
     padding: 20px;
 }
 .banner1 {
-    background-color: #1bbdfd;
+    background-color: #19beff;
 }
 .banner1_p {
     color: #525151;
@@ -145,7 +145,7 @@ nav a:hover {
     line-height: 20px;
 }
 .banner2 {
-    background-color: #73d7ff;
+    background-color: #58c8f4;
 }
 .banner2_lista {
     color: #525151;
@@ -162,7 +162,7 @@ nav a:hover {
     line-height: 28px;
 }
 .banner3{
-    background-color: #b2e7fc;
+    background-color: #9ee1fc;
 }
 .banner3_horarios {
     color: #525151;
@@ -256,13 +256,6 @@ article {
     color: #525151;
 }
 /* RODAPÉ */
-#home {
-    text-decoration: none;
-    color: white;
-}
-#home:hover {
-    color: #525151;
-}
 footer {
     background-color: #1e1e1e;
     width: 100%;
@@ -286,21 +279,27 @@ footer {
     flex-direction: row;
     flex: 1;
     padding: 20px;
+    color: #525151;
 } 
 .fm_1 {
-    background-color: #1bbdfd;
+    background-color: #19beff;
 }
 .fm_2 {
-    background-color: #73d7ff;
+    background-color: #58c8f4;
     display: flex;
     justify-content: center;   
     font-weight: bold;
-    text-shadow: 2px 2px 5px rgb(17, 161, 161) ;
+}
+#home {
+    text-decoration: none;
+}
+#home:hover {
+    color:white;
 }
 .fm_3 {
     display: flex;
     justify-content: end;
-    background-color: #b2e7fc;
+    background-color: #9ee1fc;
 }
 .footer_area {
     display: flex;
@@ -353,6 +352,9 @@ footer .a_onando{
 footer .a_onando:hover{
     color: white;
 }
-
-/*  */
-/*  */
+.whats {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 9999;
+}
