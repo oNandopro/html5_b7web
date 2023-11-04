@@ -340,7 +340,7 @@ footer {
     line-height: 40px;
     margin-top: 60px;
 }
-footer p{
+footer .p_nando{
     font-family: "AudioWide", cursive;
     letter-spacing: 2px;
 }
