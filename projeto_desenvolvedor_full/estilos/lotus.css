@@ -31,7 +31,7 @@ header {
     background-color: #58c8f4;
 }
 .container {
-    width: 1027px;
+    width: 1024px;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -354,7 +354,7 @@ footer .a_onando:hover{
 }
 .whats {
     position: fixed;
-    bottom: 25px;
+    bottom: 5px;
     right: 25px;
     z-index: 9999;
 }
