@@ -38,6 +38,36 @@ body {
 }
 .a_header:hover{
     color: #d816be;
+    display: block;
+}
+/* MAIN */
+nav {
+    background-color: black;
+}
+nav li {
+    display: inline-block;
+}
+.home {
+    background-color: red;
+}
+nav li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+nav li a:hover {
+    background-color: red;
+}
+.dropdawn_menu {
+    position: absolute;
+    display: none;
+}
+.dropdawn_menu a {
+    display: block;
+}
+.dropdawn:hover .dropdawn_menu {
+    display: block;
 }
 /* FOOTER */
 .footer{

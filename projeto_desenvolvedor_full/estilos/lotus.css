@@ -40,7 +40,7 @@ header {
     display: flex;
     align-items: center;
 }
-.sec_nav_header {
+.sec_nav_header {               
     display: flex;
     align-items: center;
 }
@@ -50,19 +50,30 @@ header {
 nav ul,
 nav li {
     list-style: none;
-    display: flex;
+    display: inline-block;
 }
-nav a {
-    display: block;
+.a_menu {
+    display: inline-block;
     padding: 15px;
     text-decoration: none;
     text-transform: uppercase;
     color: #727272;
 }
-nav .active a,
-nav a:hover {
+nav .active,
+nav .a_menu:hover {
     background-color: #39aae1;
     color: #ffffff;
+} 
+/* menu dropdown */
+.dropdawn_menu {
+    position: absolute;
+    display: none;
+}
+.dropdawn_menu a {
+    display: block;
+}
+.dropdawn:hover .dropdawn_menu {
+    display: block;
 }
 /* BANNER */
 #sec_banner {
