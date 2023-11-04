@@ -237,6 +237,13 @@ article {
     color: #525151;
 }
 /* RODAPÉ */
+#home {
+    text-decoration: none;
+    color: white;
+}
+#home:hover {
+    color: #525151;
+}
 footer {
     background-color: #1e1e1e;
     width: 100%;
@@ -266,8 +273,14 @@ footer {
 }
 .fm_2 {
     background-color: #73d7ff;
+    display: flex;
+    justify-content: center;   
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(17, 161, 161) ;
 }
 .fm_3 {
+    display: flex;
+    justify-content: end;
     background-color: #b2e7fc;
 }
 .footer_area {
