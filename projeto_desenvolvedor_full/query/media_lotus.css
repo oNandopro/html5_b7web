@@ -9,16 +9,15 @@
 }
 /* iPads, Tablets – 481px — 765px (tablets) - DIMENSIONS: SURFACE DUO 540-720*/
 @media screen and (min-width: 481px) and (max-width: 765px) {
-    body{
-        background-color: aqua;
-    }
-    .container {
-        background-color: chartreuse;
-        width: auto;
-    }
-    .hea {
-        width: 100%;
-    }
+  header {
+    display: initial;
+    background-color: #58c8f4;
+  }
+.container {
+    width: auto;
+}
+
+  
 }
 /* Small screens, laptops – 766px — 1025px (tela pequena) - DIMENSIONS: IPAD MINI 768-1024*/
 @media screen and (min-width: 766px) and (max-width: 1024px) {
