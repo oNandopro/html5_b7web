@@ -6,6 +6,18 @@
     <title>Lótus Espaço Terapêutico</title>
     <link rel="stylesheet" href="/projeto_desenvolvedor_full/estilos/lotus.css">
     <link rel="stylesheet" href="/projeto_desenvolvedor_full/query/media_lotus.css">
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menuMobile").addEventListener("click", function() {
+                if (document.querySelector ("section nav ul").style.display == 'flex') {
+                    document.querySelector ("section nav ul").style.display = 'none'
+                } else {
+                    document.querySelector ("section nav ul").style.display = 'flex'
+                }
+            })
+        }
+
+    </script>
 </head>
 <body>
     <header> <!-- CABEÇALHO  --> 
@@ -19,9 +31,9 @@
             <section class="sec_nav_header">
                 <nav class="nav_header" href="#home">
                     <div class="menuMobile">
-                        <div class="munu_linha"></div>
-                        <div class="munu_linha"></div>
-                        <div class="munu_linha"></div>
+                        <div class="menu_linha"></div>
+                        <div class="menu_linha"></div>
+                        <div class="menu_linha"></div>
                     </div>
                     <ul class="nav_ul">
                         <li class="active">

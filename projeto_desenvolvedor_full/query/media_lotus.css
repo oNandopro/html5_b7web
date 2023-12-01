@@ -10,6 +10,9 @@
 /* iPads, Tablets – 481px — 765px (tablets) - DIMENSIONS: SURFACE DUO 540-720*/
 @media screen and (min-width: 481px) and (max-width: 765px) {
     /* CABEÇALHO */
+    header {
+        height: 120px;
+    }
     .div_logo {
         margin-left: 15px;
     }
@@ -22,6 +25,15 @@
         justify-content: space-around;
     }
     nav ul {
+       display: flex;
+       flex-direction: column;
+       display: none;
+       position: absolute;
+       left: 0;
+       width: 100%;
+       background-color: #58c8f4;
+    }
+    .active {
         display: none;
     }
     /* BANNER */

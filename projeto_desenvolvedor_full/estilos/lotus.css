@@ -47,11 +47,10 @@ header {
     margin-top: 40px;
     margin-bottom: 40px;
     margin-right: 20px;
-    background-color: black;
 }
 .menu_linha {
-    height: 20px;
-    background-color: #19beff;
+    height: 2px;
+    background-color: #d816be;
 }
 .sec_nav_header {               
     display: flex;
